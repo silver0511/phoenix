@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libEncryptLib.a  CMakeFiles/EncryptLib.dir/__/src/ASCIIEnrypt.cpp.o CMakeFiles/EncryptLib.dir/__/src/BlowFishEncrypt.cpp.o CMakeFiles/EncryptLib.dir/__/src/Encrypt.cpp.o CMakeFiles/EncryptLib.dir/__/src/TeaEncrypt.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libEncryptLib.a

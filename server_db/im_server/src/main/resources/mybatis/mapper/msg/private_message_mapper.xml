@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qbao.im.api.dao.IPrivateMessageDao" >
+	
+	<sql id="BASE_SQL">
+		SELECT pm.b_id,pm.c_id,pm.w_id,pm.send_userid,pm.send_nickname,pm.op_user_id,pm.app_id,pm.session_id,pm.c_type,pm.b_type,pm.ext_type,pm.msg,pm.msg_preview,pm.create_date,pm.msg_status,pm.message_id FROM nim_private_message pm
+	</sql>
+
+	<select id="query" parameterType="PrivateMessage" resultType="PrivateMessage">
+		<include refid="BASE_SQL"/>
+		<where>
+			1 = 1
+			<if test="create_date != null">
+				AND create_date = #{create_date},
+			</if>
+			<if test="b_id != null">
+				AND b_id = #{b_id},
+			</if>
+			<if test="c_id != null">
+				AND c_id = #{c_id},
+			</if>
+			<if test="w_id != null">
+				AND w_id = #{w_id},
+			</if>
+			<if test="pageIndex != null">
+				LIMIT pageIndex,pageSize
+			</if>
+		</where>
+	</select>
+</mapper>

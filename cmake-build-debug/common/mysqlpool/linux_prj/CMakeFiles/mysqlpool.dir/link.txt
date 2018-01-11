@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libmysqlpool.a  CMakeFiles/mysqlpool.dir/__/src/DBI.cpp.o CMakeFiles/mysqlpool.dir/__/src/MySQLDriver.cpp.o CMakeFiles/mysqlpool.dir/__/src/MySQLDriverPool.cpp.o CMakeFiles/mysqlpool.dir/__/src/MySQLRes.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libmysqlpool.a

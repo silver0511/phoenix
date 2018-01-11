@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+
+namespace syspack;
+
+// 用户注册RQ
+table T_SMS_VALID_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	verify_code:int;
+}
+
+root_type T_SMS_VALID_RS;

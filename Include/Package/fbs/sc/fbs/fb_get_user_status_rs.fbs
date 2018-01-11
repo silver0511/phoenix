@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+
+namespace scpack;
+
+// 获取用户消息状态
+table T_GET_USER_STATUS_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+    list_user_ids:[ulong];                       // 用户状态
+}
+root_type T_GET_USER_STATUS_RS;

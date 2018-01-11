@@ -1,0 +1,14 @@
+include "../../common/fbs/common.fbs";
+namespace ecpack;
+
+table T_GOODSINFTOIMS
+{
+		goodsId:ulong;                     //商品ID
+		goodsNum:int;                      //商品数量
+		skuId:ulong;                       //规格ID
+		unitPrice:int;                      //单价
+		goodsName:string;                  //商品名称
+		skuText:string;                     //规格描述
+		imgUrl:string;                     //商品小图片
+}
+root_type T_GOODSINFTOIMS;

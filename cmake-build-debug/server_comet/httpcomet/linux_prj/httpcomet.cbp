@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="httpcomet"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\common\;CMake Files\common\CommonLib\;CMake Files\common\CommonLib\linux_prj\;CMake Files\common\EncryptLib\;CMake Files\common\EncryptLib\linux_prj\;CMake Files\common\memcache\;CMake Files\common\memcache\linux_prj\;CMake Files\common\mysqlpool\;CMake Files\common\mysqlpool\linux_prj\;CMake Files\network\;CMake Files\network\NetHttp\;CMake Files\network\NetHttp\linux_prj\;CMake Files\network\NetT\;CMake Files\network\NetT\linux_prj\;CMake Files\network\NetTB\;CMake Files\network\NetTB\linux_prj\;CMake Files\network\NetTPool\;CMake Files\network\NetTPool\linux_prj\;CMake Files\network\NetWS\;CMake Files\network\NetWS\linux_prj\;CMake Files\server_logic\;CMake Files\server_logic\dbtest\;CMake Files\server_logic\dbtest\linux_prj\;CMake Files\server_logic\ecserver\;CMake Files\server_logic\ecserver\linux_prj\;CMake Files\server_logic\fdserver\;CMake Files\server_logic\fdserver\linux_prj\;CMake Files\server_logic\gcserver\;CMake Files\server_logic\gcserver\linux_prj\;CMake Files\server_logic\offcialserver\;CMake Files\server_logic\offcialserver\linux_prj\;CMake Files\server_logic\groupserver\;CMake Files\server_logic\groupserver\linux_prj\;CMake Files\server_logic\regserver\;CMake Files\server_logic\regserver\linux_prj\;CMake Files\server_logic\userserver\;CMake Files\server_logic\userserver\linux_prj\;CMake Files\server_logic\scserver\;CMake Files\server_logic\scserver\linux_prj\;CMake Files\server_route\;CMake Files\server_route\gcroute\;CMake Files\server_route\gcroute\linux_prj\;CMake Files\server_route\pcroute\;CMake Files\server_route\pcroute\linux_prj\;CMake Files\server_route\scroute\;CMake Files\server_route\scroute\linux_prj\;CMake Files\server_comet\;CMake Files\server_comet\httpcomet\;CMake Files\server_comet\httpcomet\linux_prj\;CMake Files\server_comet\tcpcomet\;CMake Files\server_comet\tcpcomet\linux_prj\;CMake Files\server_comet\wscomet\;CMake Files\server_comet\wscomet\linux_prj\;CMake Files\public\;CMake Files\public\kafka\;CMake Files\public\kafka\linux_prj\;CMake Files\public\redisclient\;CMake Files\public\redisclient\linux_prj\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpcomet">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/httpcomet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 httpcomet"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpcomet/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/httpcomet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 httpcomet/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ClientConn/User.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ClientConn/User.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ClientConn/UserMgr.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ClientConn/UserMgr.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ClientSide/ClientSide.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ClientSide/ClientSide.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/Config.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/Config.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/GlobalResource.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/GlobalResource.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/Server.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ServerMgr.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ServerMgr.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ServerMgrTimeTask.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ServerSide/ServerSide.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ServerSide/ServerSide.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/stdafx.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/stdafx.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\CommonLib\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\CommonLib\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/EncryptLib/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\EncryptLib\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/EncryptLib/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\EncryptLib\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/memcache/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\memcache\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/memcache/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\memcache\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/mysqlpool/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\mysqlpool\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/mysqlpool/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\mysqlpool\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetHttp\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetHttp\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetT\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetT\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetTB\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetTB\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetTPool\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetTPool\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetWS\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetWS\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\dbtest\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\dbtest\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\ecserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\ecserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\fdserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\fdserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\gcserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\gcserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\offcialserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\offcialserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\groupserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\groupserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\regserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\regserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\userserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\userserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\scserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\scserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_route\gcroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_route\gcroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_route\pcroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_route\pcroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_route\scroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_route\scroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_comet\httpcomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_comet\httpcomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_comet\tcpcomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_comet\tcpcomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_comet\wscomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_comet\wscomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/kafka/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public\kafka\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/kafka/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public\kafka\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public\redisclient\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public\redisclient\linux_prj\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

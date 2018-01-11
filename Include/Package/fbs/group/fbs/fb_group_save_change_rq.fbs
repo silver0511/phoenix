@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+namespace grouppack;
+
+// 设置群存储类型
+table T_GROUP_SAVE_CHANGE_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	group_id:ulong; 								// 群组id
+    save_type:byte;                                 // 是否存储通讯录 0不存储 1存储
+}
+
+root_type T_GROUP_SAVE_CHANGE_RQ;

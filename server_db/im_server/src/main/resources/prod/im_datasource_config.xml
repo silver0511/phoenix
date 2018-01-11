@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:tx="http://www.springframework.org/schema/tx"
+	   xmlns:aop="http://www.springframework.org/schema/aop" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.2.xsd
+        http://www.springframework.org/schema/tx
+	 	 http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
+
+	<bean id="db" class="com.alibaba.druid.pool.DruidDataSource" abstract="true" >
+		<property name="timeBetweenEvictionRunsMillis" value="${jdbc.im.timeBetweenEvictionRunsMillis}" />
+		<property name="minEvictableIdleTimeMillis" value="${jdbc.im.minEvictableIdleTimeMillis}" />
+
+		<property name="validationQuery" value="SELECT 'x'" />
+		<property name="testWhileIdle" value="${jdbc.im.testWhileIdle}" />
+		<property name="testOnBorrow" value="${jdbc.im.testOnBorrow}" />
+		<property name="testOnReturn" value="${jdbc.im.testOnReturn}" />
+
+		<property name="removeAbandoned" value="${jdbc.im.removeAbandoned}" />
+		<property name="removeAbandonedTimeout" value="${jdbc.im.removeAbandonedTimeout}" />
+		<property name="logAbandoned" value="${jdbc.im.logAbandoned}" />
+
+		<property name="filters" value="${jdbc.im.filters}" />
+		<property name="maxActive" value="${jdbc.im.max_active}" />
+		<property name="initialSize" value="${jdbc.im.initial_size}" />
+		<property name="maxWait" value="${jdbc.im.max_wait}" />
+		<property name="minIdle" value="${jdbc.im.min_idle}" />
+	</bean>
+
+     <bean id="im_db1" init-method="init" destroy-method="close" parent="db">
+		<property name="url" value="${jdbc.im1.url}" />
+		<property name="driverClassName" value="${jdbc.im.read.driver}"/>
+		<property name="username" value="${jdbc.im1.username}" />
+		<property name="password" value="${jdbc.im1.password}" />
+	</bean>
+
+	<bean id="im_db2" init-method="init" destroy-method="close" parent="db">
+		<property name="url" value="${jdbc.im2.url}" />
+		<property name="driverClassName" value="${jdbc.im.read.driver}"/>
+		<property name="username" value="${jdbc.im2.username}" />
+		<property name="password" value="${jdbc.im2.password}" />
+	</bean>
+
+	<bean id="im_db3" init-method="init" destroy-method="close" parent="db">
+		<property name="url" value="${jdbc.im3.url}" />
+		<property name="driverClassName" value="${jdbc.im.read.driver}"/>
+		<property name="username" value="${jdbc.im3.username}" />
+		<property name="password" value="${jdbc.im3.password}" />
+	</bean>
+
+	<bean id="im_db4" init-method="init" destroy-method="close" parent="db">
+		<property name="url" value="${jdbc.im4.url}" />
+		<property name="driverClassName" value="${jdbc.im.read.driver}"/>
+		<property name="username" value="${jdbc.im4.username}" />
+		<property name="password" value="${jdbc.im4.password}" />
+	</bean>
+
+	<bean id="im_dbec1" init-method="init" destroy-method="close" parent="db">
+		<property name="url" value="${jdbc.imec1.url}" />
+		<property name="driverClassName" value="${jdbc.im.read.driver}"/>
+		<property name="username" value="${jdbc.imec1.username}" />
+		<property name="password" value="${jdbc.imec1.password}" />
+	</bean>
+	
+	<bean id="im_dbec2" init-method="init" destroy-method="close" parent="db">
+		<property name="url" value="${jdbc.imec2.url}" />
+		<property name="driverClassName" value="${jdbc.im.read.driver}"/>
+		<property name="username" value="${jdbc.imec2.username}" />
+		<property name="password" value="${jdbc.imec2.password}" />
+	</bean>
+	
+	<bean id="im_dbarch1" init-method="init" destroy-method="close" parent="db">
+		<property name="url" value="${jdbc.imarch1.url}" />
+		<property name="driverClassName" value="${jdbc.im.read.driver}"/>
+		<property name="username" value="${jdbc.imarch1.username}" />
+		<property name="password" value="${jdbc.imarch1.password}" />
+	</bean>
+	
+	<bean id="im_dbarch2" init-method="init" destroy-method="close" parent="db">
+		<property name="url" value="${jdbc.imarch2.url}" />
+		<property name="driverClassName" value="${jdbc.im.read.driver}"/>
+		<property name="username" value="${jdbc.imarch2.username}" />
+		<property name="password" value="${jdbc.imarch2.password}" />
+	</bean>
+
+	<bean id="dataSourceKeyHashRule1" class="com.qianbao.framework.datasource.impl.rules.DataSourceKeyModuloRule">
+		<property name="field" value="userId"/>
+		<property name="moduloNumber" value="4"/>
+		<property name="remainder" value="0"/>
+		<property name="dataSourceKey" value="im_db1"/>
+	</bean>
+
+	<bean id="dataSourceKeyHashRule2" class="com.qianbao.framework.datasource.impl.rules.DataSourceKeyModuloRule">
+		<property name="field" value="userId"/>
+		<property name="moduloNumber" value="4"/>
+		<property name="remainder" value="1"/>
+		<property name="dataSourceKey" value="im_db2"/>
+	</bean>
+
+	<bean id="dataSourceKeyHashRule3" class="com.qianbao.framework.datasource.impl.rules.DataSourceKeyModuloRule">
+		<property name="field" value="userId"/>
+		<property name="moduloNumber" value="4"/>
+		<property name="remainder" value="2"/>
+		<property name="dataSourceKey" value="im_db3"/>
+	</bean>
+
+	<bean id="dataSourceKeyHashRule4" class="com.qianbao.framework.datasource.impl.rules.DataSourceKeyModuloRule">
+		<property name="field" value="userId"/>
+		<property name="moduloNumber" value="4"/>
+		<property name="remainder" value="3"/>
+		<property name="dataSourceKey" value="im_db4"/>
+	</bean>
+
+	<!-- 群组 -->
+	<bean id="dataSourceKeyHashRule5" class="com.qianbao.framework.datasource.impl.rules.DataSourceKeyModuloRule">
+		<property name="field" value="groupId"/>
+		<property name="moduloNumber" value="4"/>
+		<property name="remainder" value="0"/>
+		<property name="dataSourceKey" value="im_db1"/>
+	</bean>
+
+	<bean id="dataSourceKeyHashRule6" class="com.qianbao.framework.datasource.impl.rules.DataSourceKeyModuloRule">
+		<property name="field" value="groupId"/>
+		<property name="moduloNumber" value="4"/>
+		<property name="remainder" value="1"/>
+		<property name="dataSourceKey" value="im_db2"/>
+	</bean>
+
+	<bean id="dataSourceKeyHashRule7" class="com.qianbao.framework.datasource.impl.rules.DataSourceKeyModuloRule">
+		<property name="field" value="groupId"/>
+		<property name="moduloNumber" value="4"/>
+		<property name="remainder" value="2"/>
+		<property name="dataSourceKey" value="im_db3"/>
+	</bean>
+
+	<bean id="dataSourceKeyHashRule8" class="com.qianbao.framework.datasource.impl.rules.DataSourceKeyModuloRule">
+		<property name="field" value="groupId"/>
+		<property name="moduloNumber" value="4"/>
+		<property name="remainder" value="3"/>
+		<property name="dataSourceKey" value="im_db4"/>
+	</bean>
+
+	<bean id="dataSourceKeyHashRule9" class="com.qianbao.framework.datasource.impl.rules.DataSourceKeyModuloRule">
+		<property name="field" value="bid"/>
+		<property name="moduloNumber" value="2"/>
+		<property name="remainder" value="0"/>
+		<property name="dataSourceKey" value="im_dbec1"/>
+	</bean>
+	<bean id="dataSourceKeyHashRule10" class="com.qianbao.framework.datasource.impl.rules.DataSourceKeyModuloRule">
+		<property name="field" value="bid"/>
+		<property name="moduloNumber" value="2"/>
+		<property name="remainder" value="1"/>
+		<property name="dataSourceKey" value="im_dbec2"/>
+	</bean>
+
+	<bean id="defaultDataSourceKeyDeterminer" class="com.qianbao.framework.datasource.impl.DefaultDataSourceKeyDeterminer">
+		<property name="defaultDataSourceKey" value="im_db1"/>
+		<property name="rules">
+			<list>
+				<ref bean="dataSourceKeyHashRule1"/>
+				<ref bean="dataSourceKeyHashRule2"/>
+				<ref bean="dataSourceKeyHashRule3"/>
+				<ref bean="dataSourceKeyHashRule4"/>
+				<ref bean="dataSourceKeyHashRule5"/>
+				<ref bean="dataSourceKeyHashRule6"/>
+				<ref bean="dataSourceKeyHashRule7"/>
+				<ref bean="dataSourceKeyHashRule8"/>
+				<ref bean="dataSourceKeyHashRule9"/>
+				<ref bean="dataSourceKeyHashRule10"/>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="dataSource" class="com.qianbao.framework.datasource.DynamicDataSource">
+		<property name="targetDataSources">
+			<map key-type="java.lang.String">
+				<entry key="im_db1" value-ref="im_db1"/>
+				<entry key="im_db2" value-ref="im_db2"/>
+				<entry key="im_db3" value-ref="im_db3"/>
+				<entry key="im_db4" value-ref="im_db4"/>
+				<entry key="im_dbec1" value-ref="im_dbec1"/>
+				<entry key="im_dbec2" value-ref="im_dbec2"/>
+				<entry key="im_dbarch1" value-ref="im_dbarch1"/>
+				<entry key="im_dbarch2" value-ref="im_dbarch2"/>
+			</map>
+		</property>
+		<property name="defaultTargetDataSource" ref="im_db1"/>
+	</bean>
+
+	<!--<aop:aspectj-autoproxy proxy-target-class="true"/>-->
+
+	<bean id="multipleDataSourceAspect" class="com.qianbao.framework.datasource.DataSourceAspect" />
+
+	<aop:config>
+		<aop:aspect id="c" ref="multipleDataSourceAspect">
+			<aop:pointcut id="tx" expression="execution(* com.qbao.im.api.service.impl.*.*(..))"/>
+			<aop:before pointcut-ref="tx" method="before"/>
+			<aop:after pointcut-ref="tx" method="after"/>
+		</aop:aspect>
+	</aop:config>
+
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="configLocation" value="classpath:/mybatis/mybatis_cfg.xml" />
+		<property name="mapperLocations" value="classpath:/mybatis/mapper/**/*.xml" />
+	</bean>
+
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.qbao.im.api.dao" />
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+	</bean>
+
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<tx:annotation-driven transaction-manager="transactionManager" />
+</beans>

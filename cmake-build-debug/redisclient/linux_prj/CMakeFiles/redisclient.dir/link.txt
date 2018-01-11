@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libredisclient.a  CMakeFiles/redisclient.dir/__/src/RedisClient.cpp.o CMakeFiles/redisclient.dir/__/src/RedisUtil.cpp.o CMakeFiles/redisclient.dir/__/src/RedisUtil_Login.cpp.o CMakeFiles/redisclient.dir/__/src/RedisUtil_Message.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libredisclient.a

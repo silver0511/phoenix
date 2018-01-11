@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+namespace ecpack;
+
+table T_EC_GET_OFFLINE_MESSAGE_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	b_id:ulong;                 //商家ID
+	offset:int;                // 获取离线偏移量
+}
+
+root_type T_EC_GET_OFFLINE_MESSAGE_RQ;

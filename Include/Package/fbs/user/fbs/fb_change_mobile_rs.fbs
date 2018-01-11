@@ -1,0 +1,13 @@
+include "../../common/fbs/common.fbs";
+
+namespace userpack;
+
+//用户举报信息包
+table T_CHANGE_MOBILE_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	old_moblie:ulong;					//旧号码
+	new_moblie:ulong;					//新号码
+}
+
+root_type T_CHANGE_MOBILE_RS;

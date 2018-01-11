@@ -1,0 +1,13 @@
+include "../../common/fbs/common.fbs";
+
+namespace syspack;
+
+//时间同步应答包
+table T_TIME_SYNC_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	server_time:ulong;								//服务器时间
+}
+
+
+root_type T_TIME_SYNC_RS;

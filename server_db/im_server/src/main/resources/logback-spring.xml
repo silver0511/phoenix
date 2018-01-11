@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml" />
+
+	<springProfile name="dev,local,test,prod">
+		<appender name="rollingAppender"
+			class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<file>/var/log/nim.db.server/server.log</file>
+			<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<fileNamePattern>/var/log/nim.db.server/server-%d{yyyy-MM-dd}.log
+				</fileNamePattern>
+				<maxHistory>30</maxHistory>
+			</rollingPolicy>
+			<encoder><!-- 必须指定，否则不会往文件输出内容 -->
+				<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n
+				</pattern>
+			</encoder>
+			<append>false</append>
+			<prudent>false</prudent>
+		</appender>
+
+		<!-- 异步输出 -->
+		<appender name="ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+			<!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->
+			<discardingThreshold>0</discardingThreshold>
+			<!-- 更改默认的队列的深度,该值会影响性能.默认值为256 -->
+			<queueSize>512</queueSize>
+			<!-- 添加附加的appender,最多只能添加一个 -->
+			<!--<appender-ref ref ="STBRollingFileAppender"/> -->
+			<appender-ref ref="rollingAppender" />
+		</appender>
+	</springProfile>
+
+
+	<springProfile name="dev,local,test,prod">
+		<logger name="com.qianbao.framework" level="ERROR" />
+		<root level="INFO">
+			<appender-ref ref="ASYNC" />
+		</root>
+	</springProfile>
+
+</configuration>

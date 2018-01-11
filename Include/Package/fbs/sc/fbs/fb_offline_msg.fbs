@@ -1,0 +1,15 @@
+include "../../common/fbs/common.fbs";
+namespace scpack;
+
+table T_OFFLINE_MSG
+{
+	op_user_id:ulong;                //用户user_id
+	message_id:ulong;                //消息messageID
+	s_msg:commonpack.S_MSG;                     //消息实体
+	b_id:ulong;									// 只是一个id类型，可以代表：商家id或者其他的id
+	w_id:ulong;									// 只是一个id类型，可以代表：小二id或者其他的id
+	c_id:ulong;									// 只是一个id类型，可以代表：客户id或者其他的id
+}
+
+root_type T_OFFLINE_MSG;
+

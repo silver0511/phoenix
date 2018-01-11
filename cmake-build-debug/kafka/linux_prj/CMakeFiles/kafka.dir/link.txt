@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libkafka.a  CMakeFiles/kafka.dir/__/src/KafkaMgr.cpp.o CMakeFiles/kafka.dir/__/src/KafkaProducer.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libkafka.a

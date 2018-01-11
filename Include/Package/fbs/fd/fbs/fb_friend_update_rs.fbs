@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+namespace friendpack;
+
+table T_FRIEND_UPDATE_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	peer_user_id:ulong;             //好友ID
+	token:ulong;                    //操作token
+}
+
+root_type T_FRIEND_UPDATE_RS;

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qbao.im.api.dao.IMerchantMessageDao" >
+	
+	<sql id="BASE_SQL">
+		SELECT iem.c_id,iem.w_id,iem.from_id,iem.to_id,iem.app_id,iem.message_id,iem.session_id,iem.chat_type,iem.m_type,iem.s_type,iem.ext_type,iem.msg_time,iem.create_time,iem.msg,iem.send_user_name FROM nim_ec_message iem
+	</sql>
+
+	<select id="query" parameterType="MerchantMessage" resultType="MerchantMessage">
+		<include refid="BASE_SQL"/>
+		<where>
+			1 = 1
+			AND create_time BETWEEN #{create_time} and NOW()
+			AND b_id = #{b_id}
+			AND c_id = #{c_id}
+			<if test="message_id == 0">
+				AND message_id > #{message_id}
+			</if>
+			<if test="message_id > 0">
+				AND message_id &lt; #{message_id}
+			</if>
+			ORDER BY message_id desc
+			<if test="pageSize != null">
+				LIMIT #{pageSize}
+			</if>
+		</where>
+	</select>
+
+	<select id="queryCurrNew" parameterType="MerchantMessage" resultType="MerchantMessage">
+		SELECT * FROM (<include refid="BASE_SQL"/>
+		<where>
+			1 = 1
+			AND b_id = #{b_id}
+			AND DATE_FORMAT(create_time,'%Y-%m-%d') = DATE_FORMAT(NOW(),'%Y-%m-%d') ORDER BY create_time DESC
+		</where>) TB
+		GROUP BY c_id
+		LIMIT #{pageIndex},#{pageSize}
+	</select>
+</mapper>

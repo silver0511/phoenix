@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="phoenix" targetName="regserver" />
+      <config projectName="phoenix" targetName="scroute" />
+      <config projectName="phoenix" targetName="wscomet" />
+      <config projectName="phoenix" targetName="offcialserver" />
+      <config projectName="phoenix" targetName="scserver" />
+      <config projectName="phoenix" targetName="NetTB" />
+      <config projectName="phoenix" targetName="tcpcomet" />
+      <config projectName="phoenix" targetName="memcache" />
+      <config projectName="phoenix" targetName="CommonLib" />
+      <config projectName="phoenix" targetName="groupserver" />
+      <config projectName="phoenix" targetName="NetT" />
+      <config projectName="phoenix" targetName="NetWS" />
+      <config projectName="phoenix" targetName="dbtest" />
+      <config projectName="phoenix" targetName="pcroute" />
+      <config projectName="phoenix" targetName="httpcomet" />
+      <config projectName="phoenix" targetName="NetTPool" />
+      <config projectName="phoenix" targetName="ecserver" />
+      <config projectName="phoenix" targetName="NetHTTP" />
+      <config projectName="phoenix" targetName="gcserver" />
+      <config projectName="phoenix" targetName="EncryptLib" />
+      <config projectName="phoenix" targetName="fdserver" />
+      <config projectName="phoenix" targetName="redisclient" />
+      <config projectName="phoenix" targetName="userserver" />
+      <config projectName="phoenix" targetName="gcroute" />
+      <config projectName="phoenix" targetName="kafka" />
+      <config projectName="phoenix" targetName="mysqlpool" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f604e5a1-1d81-4ba3-b2e7-a9ff2d295ed3" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="qbim" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ClientSide.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server_comet/tcpcomet/Src/ClientSide/ClientSide.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="421" column="17" lean-forward="false" selection-start-line="421" selection-start-column="17" selection-end-line="421" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientSide.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server_comet/tcpcomet/Src/ClientSide/ClientSide.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="79" column="22" lean-forward="false" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/server_common/ClientConn/User.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="932">
+              <caret line="66" column="12" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EpollMgr.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/network/common_tcp/EpollMgr.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="1089" column="61" lean-forward="true" selection-start-line="1089" selection-start-column="61" selection-end-line="1089" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseTCPMgr.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/network/common_tcp/BaseTCPMgr.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="189" column="30" lean-forward="false" selection-start-line="189" selection-start-column="30" selection-end-line="189" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EpollMgr.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/network/common_tcp/EpollMgr.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientSide.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server_comet/wscomet/Src/ClientSide/ClientSide.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="175" column="17" lean-forward="false" selection-start-line="175" selection-start-column="17" selection-end-line="175" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegUserMgr.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/server_common/ClientConn/RegUserMgr.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RefObjMgrTemplate.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Include/common/RefObjMgrTemplate.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-82">
+              <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>libcurl.a</find>
+      <find>SOLIB</find>
+      <find>OBJFILES</find>
+      <find>LDFLAGS</find>
+      <find>ldl</find>
+      <find>-lcurl</find>
+      <find>CXXFLAG</find>
+      <find>SHA256_ROTL</find>
+      <find>SHA256_SR</find>
+      <find>SHA256_Ch</find>
+      <find>SHA256_Maj</find>
+      <find>SHA256_E0</find>
+      <find>SHA256_E1</find>
+      <find>SHA256_O0</find>
+      <find>SHA256_O1</find>
+      <find>u_</find>
+      <find>CClientSide::RegRQ(WOR</find>
+      <find>wanggeng</find>
+      <find>MTNMsgApi_NP</find>
+      <find>创建日期</find>
+      <find>创建时间</find>
+      <find>AddRefObj</find>
+      <find>moUserMgr</find>
+      <find>moRegUserCS</find>
+      <find>moRegUserMap</find>
+      <find>moRegUserMgr.delUser</find>
+      <find>OnSessionCloseEx</find>
+      <find>mlLastTime</find>
+      <find>mlLocalTime</find>
+      <find>muiKeepAlive</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>..</replace>
+      <replace>void Task(int port, int log_type);</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/Include/base0</dir>
+      <dir>$PROJECT_DIR$/network/NetT/linux_prj</dir>
+      <dir>$PROJECT_DIR$/Include/network/packet</dir>
+      <dir>$PROJECT_DIR$/server/userserver/Src/ClientSide</dir>
+      <dir>$PROJECT_DIR$/server/consumserver/Src</dir>
+      <dir>$PROJECT_DIR$/Include/const</dir>
+      <dir>$PROJECT_DIR$/server/wscomet/Src/UserInfo</dir>
+      <dir>$PROJECT_DIR$/</dir>
+      <dir>$PROJECT_DIR$/server/wscomet</dir>
+      <dir>$PROJECT_DIR$/server/tcpcomet/Src</dir>
+      <dir>$PROJECT_DIR$/server/gcroute/Src</dir>
+      <dir>$PROJECT_DIR$/server_bin/lib</dir>
+      <dir>$PROJECT_DIR$/server_logic/dbtest/Src/MySQLDriver</dir>
+      <dir>$PROJECT_DIR$/public/redisclient/src</dir>
+      <dir>$PROJECT_DIR$/network/common_tcp</dir>
+      <dir>$PROJECT_DIR$/network</dir>
+      <dir>$PROJECT_DIR$/public/server_common</dir>
+      <dir>$PROJECT_DIR$/common/CommonLib/src</dir>
+      <dir>$PROJECT_DIR$/network/NetTB/src</dir>
+      <dir>$PROJECT_DIR$/..</dir>
+      <dir>$PROJECT_DIR$/include</dir>
+      <dir>$PROJECT_DIR$/server_bin/product_l/config</dir>
+      <dir>$PROJECT_DIR$/server_bin</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/../..</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/server_logic/offcialserver/Src/ServerMgrTimeTask.cpp" />
+        <option value="$PROJECT_DIR$/server_logic/regserver/Src/ServerMgrTimeTask.cpp" />
+        <option value="$PROJECT_DIR$/server_logic/scserver/Src/ServerMgrTimeTask.cpp" />
+        <option value="$PROJECT_DIR$/server_logic/userserver/Src/ServerMgrTimeTask.cpp" />
+        <option value="$PROJECT_DIR$/server_route/gcroute/Src/ClientSide/ClientSide.h" />
+        <option value="$PROJECT_DIR$/server_route/gcroute/Src/stdafx.cpp" />
+        <option value="$PROJECT_DIR$/server_route/pcroute/Src/stdafx.cpp" />
+        <option value="$PROJECT_DIR$/server_route/pcroute/Src/ClientSide/ClientSide.h" />
+        <option value="$PROJECT_DIR$/server_route/scroute/Src/ClientSide/ClientSide.h" />
+        <option value="$PROJECT_DIR$/server_route/scroute/Src/stdafx.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/BaseConfig.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/basefun.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/BaseThread.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/crc32.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/DebugTrace.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/DebugTraceThread.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/Event.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/FileSerialize.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/IniEx.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/md5.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/MemorySerialize.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/PacketQueue.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/System.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/U9Exception.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/U9File.cpp" />
+        <option value="$PROJECT_DIR$/common/CommonLib/src/U9Process.cpp" />
+        <option value="$PROJECT_DIR$/common/EncryptLib/src/ASCIIEnrypt.cpp" />
+        <option value="$PROJECT_DIR$/common/EncryptLib/src/BlowFishEncrypt.cpp" />
+        <option value="$PROJECT_DIR$/common/EncryptLib/src/Encrypt.cpp" />
+        <option value="$PROJECT_DIR$/common/EncryptLib/src/TeaEncrypt.cpp" />
+        <option value="$PROJECT_DIR$/common/memcache/src/BaseMemCache.cpp" />
+        <option value="$PROJECT_DIR$/Include/common/U9List.h" />
+        <option value="$PROJECT_DIR$/network/NetWS/prj/DLLExport.cpp" />
+        <option value="$PROJECT_DIR$/server_comet/tcpcomet/Src/ServerSide/ServerSide.h" />
+        <option value="$PROJECT_DIR$/server_logic/regserver/Src/ServerSide/ServerSide.cpp" />
+        <option value="$PROJECT_DIR$/server_logic/regserver/Src/ServerSide/ServerSide.h" />
+        <option value="$PROJECT_DIR$/server_logic/userserver/Src/ServerSide/ServerSide.cpp" />
+        <option value="$PROJECT_DIR$/server_logic/userserver/Src/ServerSide/ServerSide.h" />
+        <option value="$PROJECT_DIR$/public/server_common/ClientConn/User.h" />
+        <option value="$PROJECT_DIR$/public/server_common/ClientConn/User.cpp" />
+        <option value="$PROJECT_DIR$/server_comet/tcpcomet/linux_prj/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/server_comet/tcpcomet/Src/ServerMgr.h" />
+        <option value="$PROJECT_DIR$/server_comet/tcpcomet/Src/ServerMgr.cpp" />
+        <option value="$PROJECT_DIR$/public/server_common/ClientConn/RegUserMgr.h" />
+        <option value="$PROJECT_DIR$/server_comet/tcpcomet/Src/ServerSide/ServerSide.cpp" />
+        <option value="$PROJECT_DIR$/server_comet/tcpcomet/linux_prj/makefile" />
+        <option value="$PROJECT_DIR$/Include/const/constdef.h" />
+        <option value="$PROJECT_DIR$/server_logic/regserver/Src/ClientSide/ClientSide.cpp" />
+        <option value="$PROJECT_DIR$/server_comet/tcpcomet/Src/ClientSide/ClientSide.cpp" />
+        <option value="$PROJECT_DIR$/public/server_common/ClientConn/RegUserMgr.cpp" />
+        <option value="$PROJECT_DIR$/network/common_tcp/EpollMgr.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="807" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>LossyEncoding</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="common_tcp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_comet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_comet" type="462c0819:PsiDirectoryNode" />
+              <item name="tcpcomet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_comet" type="462c0819:PsiDirectoryNode" />
+              <item name="tcpcomet" type="462c0819:PsiDirectoryNode" />
+              <item name="linux_prj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_comet" type="462c0819:PsiDirectoryNode" />
+              <item name="tcpcomet" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_comet" type="462c0819:PsiDirectoryNode" />
+              <item name="tcpcomet" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientSide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_comet" type="462c0819:PsiDirectoryNode" />
+              <item name="tcpcomet" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+              <item name="ServerSide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_comet" type="462c0819:PsiDirectoryNode" />
+              <item name="wscomet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_logic" type="462c0819:PsiDirectoryNode" />
+              <item name="dbtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_logic" type="462c0819:PsiDirectoryNode" />
+              <item name="userserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_logic" type="462c0819:PsiDirectoryNode" />
+              <item name="userserver" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_route" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_route" type="462c0819:PsiDirectoryNode" />
+              <item name="gcroute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_route" type="462c0819:PsiDirectoryNode" />
+              <item name="gcroute" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_route" type="462c0819:PsiDirectoryNode" />
+              <item name="gcroute" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientSide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_route" type="462c0819:PsiDirectoryNode" />
+              <item name="pcroute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_route" type="462c0819:PsiDirectoryNode" />
+              <item name="pcroute" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_route" type="462c0819:PsiDirectoryNode" />
+              <item name="pcroute" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientSide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_route" type="462c0819:PsiDirectoryNode" />
+              <item name="scroute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_route" type="462c0819:PsiDirectoryNode" />
+              <item name="scroute" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phoenix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="phoenix" type="462c0819:PsiDirectoryNode" />
+              <item name="server_route" type="462c0819:PsiDirectoryNode" />
+              <item name="scroute" type="462c0819:PsiDirectoryNode" />
+              <item name="Src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientSide" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="SearchEverywhereHistoryKey" value="Sys&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/phoenix/server/phoenix/Include/network/packet/client/SysPackDef.h&#10;JsonT&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/phoenix/server/phoenix/Include/rjson/JsonTest.cpp&#10;Server&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/server_comet/tcpcomet/Src/ServerSide/ServerSide.cpp&#10;SelectM&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/network/common_tcp/SelectMgr.cpp&#10;CacheLi&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/Include/common/CacheList.h&#10;produ&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/public/kafka/src/KafkaProducer.cpp&#10;EpollMgr&#9;null&#9;null&#10;build&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/server_route/build.sh&#10;Json&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/Include/rjson/JsonParser.h&#10;redis&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/Include/const/redisdef.h&#10;ServerSide&#9;null&#9;null&#10;Client&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/server_comet/wscomet/Src/ClientSide/ClientSide.cpp&#10;Epoll&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/network/common_tcp/EpollMgr.cpp&#10;pRO&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/Include/kafka/KafkaProducer.h&#10;js&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/Include/rjson/JsonParser.h&#10;RedisUtil.&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/public/redisclient/src/RedisUtil_Login.cpp&#10;RedisUtil&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/public/redisclient/src/RedisUtil.cpp&#10;Redis&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/Include/redisclient/RedisClient.hpp&#10;RedisUti&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/public/redisclient/src/RedisUtil.cpp&#10;RedisClient&#9;FILE&#9;file:///Users/shiyunjie/Documents/work/server/qbao/qbim/public/redisclient/src/RedisClient.cpp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/server_common" />
+      <recent name="$PROJECT_DIR$/Include" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/server_common/json" />
+      <recent name="$PROJECT_DIR$/server_bin/product_l" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="CommonLib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="CommonLib" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="EncryptLib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="EncryptLib" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="NetHTTP" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="NetHTTP" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="NetT" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="NetT" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="NetTB" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="NetTB" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="NetTPool" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="NetTPool" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="NetWS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="NetWS" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="qbim" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="qbim" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="GoAppEngineRunConfiguration" factoryName="Go App Engine">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="qbim" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <platform value="ANDROID" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="qbim" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.sylvanaar.idea.Lua.run.LuaConfigurationType" factoryName="Lua Script">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="ALTERNATE_INTERPRETER" value="false" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="qbim" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="qbim" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="qbim" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="qbim" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="qbim" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="dbtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="dbtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="dbtest">
+      <envs />
+    </configuration>
+    <configuration name="ecserver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="ecserver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="ecserver">
+      <envs />
+    </configuration>
+    <configuration name="fdserver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="fdserver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="fdserver">
+      <envs />
+    </configuration>
+    <configuration name="gcroute" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="gcroute" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="gcroute">
+      <envs />
+    </configuration>
+    <configuration name="gcserver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="gcserver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="gcserver">
+      <envs />
+    </configuration>
+    <configuration name="groupserver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="groupserver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="groupserver">
+      <envs />
+    </configuration>
+    <configuration name="httpcomet" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="httpcomet" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="httpcomet">
+      <envs />
+    </configuration>
+    <configuration name="kafka" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="kafka" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="memcache" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="memcache" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="mysqlpool" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="mysqlpool" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="offcialserver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="offcialserver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="offcialserver">
+      <envs />
+    </configuration>
+    <configuration name="pcroute" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="pcroute" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="pcroute">
+      <envs />
+    </configuration>
+    <configuration name="redisclient" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="redisclient" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="regserver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="regserver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="regserver">
+      <envs />
+    </configuration>
+    <configuration name="scroute" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="scroute" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="scroute">
+      <envs />
+    </configuration>
+    <configuration name="scserver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="scserver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="scserver">
+      <envs />
+    </configuration>
+    <configuration name="tcpcomet" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="tcpcomet" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="tcpcomet">
+      <envs />
+    </configuration>
+    <configuration name="userserver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="userserver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="userserver">
+      <envs />
+    </configuration>
+    <configuration name="wscomet" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="phoenix" TARGET_NAME="wscomet" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="phoenix" RUN_TARGET_NAME="wscomet">
+      <envs />
+    </configuration>
+    <list size="27">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CommonLib" />
+      <item index="2" class="java.lang.String" itemvalue="Application.EncryptLib" />
+      <item index="3" class="java.lang.String" itemvalue="Application.memcache" />
+      <item index="4" class="java.lang.String" itemvalue="Application.mysqlpool" />
+      <item index="5" class="java.lang.String" itemvalue="Application.NetHTTP" />
+      <item index="6" class="java.lang.String" itemvalue="Application.NetT" />
+      <item index="7" class="java.lang.String" itemvalue="Application.NetTB" />
+      <item index="8" class="java.lang.String" itemvalue="Application.NetTPool" />
+      <item index="9" class="java.lang.String" itemvalue="Application.NetWS" />
+      <item index="10" class="java.lang.String" itemvalue="Application.kafka" />
+      <item index="11" class="java.lang.String" itemvalue="Application.redisclient" />
+      <item index="12" class="java.lang.String" itemvalue="Application.httpcomet" />
+      <item index="13" class="java.lang.String" itemvalue="Application.tcpcomet" />
+      <item index="14" class="java.lang.String" itemvalue="Application.wscomet" />
+      <item index="15" class="java.lang.String" itemvalue="Application.dbtest" />
+      <item index="16" class="java.lang.String" itemvalue="Application.ecserver" />
+      <item index="17" class="java.lang.String" itemvalue="Application.fdserver" />
+      <item index="18" class="java.lang.String" itemvalue="Application.gcserver" />
+      <item index="19" class="java.lang.String" itemvalue="Application.groupserver" />
+      <item index="20" class="java.lang.String" itemvalue="Application.offcialserver" />
+      <item index="21" class="java.lang.String" itemvalue="Application.regserver" />
+      <item index="22" class="java.lang.String" itemvalue="Application.scserver" />
+      <item index="23" class="java.lang.String" itemvalue="Application.userserver" />
+      <item index="24" class="java.lang.String" itemvalue="Application.gcroute" />
+      <item index="25" class="java.lang.String" itemvalue="Application.pcroute" />
+      <item index="26" class="java.lang.String" itemvalue="Application.scroute" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f604e5a1-1d81-4ba3-b2e7-a9ff2d295ed3" name="Default" comment="" />
+      <created>1482814002389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1482814002389</updated>
+      <workItem from="1482814004402" duration="15924000" />
+      <workItem from="1482889955365" duration="376000" />
+      <workItem from="1482973648016" duration="3132000" />
+      <workItem from="1482982681226" duration="8119000" />
+      <workItem from="1483065384777" duration="83000" />
+      <workItem from="1483065486769" duration="13547000" />
+      <workItem from="1483270023825" duration="1012000" />
+      <workItem from="1483407703595" duration="20598000" />
+      <workItem from="1483491502847" duration="144000" />
+      <workItem from="1483491657835" duration="24778000" />
+      <workItem from="1483578423409" duration="6749000" />
+      <workItem from="1483586320152" duration="1452000" />
+      <workItem from="1483588639917" duration="16808000" />
+      <workItem from="1483664564255" duration="18617000" />
+      <workItem from="1483710194921" duration="4358000" />
+      <workItem from="1483923590702" duration="74000" />
+      <workItem from="1483923674833" duration="19668000" />
+      <workItem from="1484010886004" duration="7437000" />
+      <workItem from="1484096639810" duration="20189000" />
+      <workItem from="1484183190515" duration="22944000" />
+      <workItem from="1484228988396" duration="282000" />
+      <workItem from="1484270111725" duration="14208000" />
+      <workItem from="1484317871633" duration="782000" />
+      <workItem from="1484528748437" duration="14582000" />
+      <workItem from="1484615129412" duration="7276000" />
+      <workItem from="1484701460877" duration="5140000" />
+      <workItem from="1484788203790" duration="3064000" />
+      <workItem from="1484874804412" duration="3199000" />
+      <workItem from="1484883400452" duration="6114000" />
+      <workItem from="1485047306075" duration="11727000" />
+      <workItem from="1485136073329" duration="9986000" />
+      <workItem from="1485220450076" duration="4008000" />
+      <workItem from="1485305315757" duration="3195000" />
+      <workItem from="1485392108636" duration="1723000" />
+      <workItem from="1486083756891" duration="20463000" />
+      <workItem from="1486170750693" duration="21423000" />
+      <workItem from="1486343247508" duration="17000" />
+      <workItem from="1486343277758" duration="23988000" />
+      <workItem from="1486382550908" duration="427000" />
+      <workItem from="1486429065971" duration="15570000" />
+      <workItem from="1486515745322" duration="20480000" />
+      <workItem from="1486549344906" duration="465000" />
+      <workItem from="1486601961031" duration="17352000" />
+      <workItem from="1486688789613" duration="12727000" />
+      <workItem from="1486947906680" duration="4194000" />
+      <workItem from="1486969331774" duration="3328000" />
+      <workItem from="1487033635763" duration="13147000" />
+      <workItem from="1487120913840" duration="8035000" />
+      <workItem from="1487206874412" duration="8561000" />
+      <workItem from="1487292918703" duration="7239000" />
+      <workItem from="1487552504764" duration="11290000" />
+      <workItem from="1487639150287" duration="11929000" />
+      <workItem from="1487724765027" duration="18303000" />
+      <workItem from="1487811618125" duration="1894000" />
+      <workItem from="1487897555155" duration="11551000" />
+      <workItem from="1488156845708" duration="11516000" />
+      <workItem from="1488243049064" duration="12685000" />
+      <workItem from="1488329740189" duration="5858000" />
+      <workItem from="1488416110558" duration="333000" />
+      <workItem from="1488503421457" duration="3676000" />
+      <workItem from="1488761531167" duration="4014000" />
+      <workItem from="1488848089453" duration="5450000" />
+      <workItem from="1488934011368" duration="3665000" />
+      <workItem from="1489021127550" duration="4180000" />
+      <workItem from="1489107155592" duration="7777000" />
+      <workItem from="1489371700940" duration="9525000" />
+      <workItem from="1489455271960" duration="1462000" />
+      <workItem from="1489457583539" duration="6000" />
+      <workItem from="1489457616458" duration="95000" />
+      <workItem from="1489457721656" duration="3146000" />
+      <workItem from="1489538661936" duration="6483000" />
+      <workItem from="1489625476148" duration="10203000" />
+      <workItem from="1489670518523" duration="437000" />
+      <workItem from="1489713183300" duration="13497000" />
+      <workItem from="1489801331287" duration="2572000" />
+      <workItem from="1489971865043" duration="10380000" />
+      <workItem from="1490057750377" duration="15401000" />
+      <workItem from="1490144883316" duration="9416000" />
+      <workItem from="1490230944364" duration="8392000" />
+      <workItem from="1490576328329" duration="117000" />
+      <workItem from="1490576578428" duration="9000" />
+      <workItem from="1490576597933" duration="5859000" />
+      <workItem from="1490662448232" duration="5332000" />
+      <workItem from="1490748789814" duration="8998000" />
+      <workItem from="1490836023525" duration="436000" />
+      <workItem from="1490837113732" duration="307000" />
+      <workItem from="1490837462403" duration="223000" />
+      <workItem from="1490837707131" duration="17187000" />
+      <workItem from="1490921335798" duration="13304000" />
+      <workItem from="1491008077643" duration="7245000" />
+      <workItem from="1491353678923" duration="15602000" />
+      <workItem from="1491439962831" duration="20428000" />
+      <workItem from="1491526776249" duration="10074000" />
+      <workItem from="1491788583713" duration="15658000" />
+      <workItem from="1491872165051" duration="12059000" />
+      <workItem from="1491958473750" duration="17026000" />
+      <workItem from="1492045557424" duration="41000" />
+      <workItem from="1492045635739" duration="15590000" />
+      <workItem from="1492131508254" duration="10150000" />
+      <workItem from="1492391444586" duration="8397000" />
+      <workItem from="1492421699711" duration="1348000" />
+      <workItem from="1492482910746" duration="6808000" />
+      <workItem from="1492563381995" duration="11897000" />
+      <workItem from="1492651381967" duration="3419000" />
+      <workItem from="1492736981834" duration="3021000" />
+      <workItem from="1492995567888" duration="1720000" />
+      <workItem from="1493081894642" duration="2940000" />
+      <workItem from="1493168375432" duration="2178000" />
+      <workItem from="1493257025893" duration="3917000" />
+      <workItem from="1493341806313" duration="4190000" />
+      <workItem from="1493686403800" duration="7914000" />
+      <workItem from="1493772993821" duration="17306000" />
+      <workItem from="1493859776339" duration="2004000" />
+      <workItem from="1493879568701" duration="6374000" />
+      <workItem from="1493947082393" duration="11487000" />
+      <workItem from="1494204636901" duration="9122000" />
+      <workItem from="1494290882934" duration="9713000" />
+      <workItem from="1494379287525" duration="7114000" />
+      <workItem from="1494464378760" duration="5796000" />
+      <workItem from="1494551377812" duration="8996000" />
+      <workItem from="1494809904806" duration="6040000" />
+      <workItem from="1494895503977" duration="6137000" />
+      <workItem from="1494982116877" duration="82000" />
+      <workItem from="1494982217599" duration="5732000" />
+      <workItem from="1495070435556" duration="7130000" />
+      <workItem from="1495414902472" duration="3054000" />
+      <workItem from="1495500652868" duration="5334000" />
+      <workItem from="1495586575956" duration="8704000" />
+      <workItem from="1495673715569" duration="11585000" />
+      <workItem from="1495760829994" duration="13634000" />
+      <workItem from="1495846739632" duration="11642000" />
+      <workItem from="1496192682170" duration="13434000" />
+      <workItem from="1496279059992" duration="8095000" />
+      <workItem from="1496364706215" duration="17411000" />
+      <workItem from="1496624503706" duration="21331000" />
+      <workItem from="1496710925620" duration="14208000" />
+      <workItem from="1496799816335" duration="4429000" />
+      <workItem from="1496883888385" duration="9074000" />
+      <workItem from="1496970003299" duration="15656000" />
+      <workItem from="1497229491728" duration="1837000" />
+      <workItem from="1497235638283" duration="10664000" />
+      <workItem from="1497314973327" duration="17401000" />
+      <workItem from="1497401872824" duration="16787000" />
+      <workItem from="1497488414223" duration="6922000" />
+      <workItem from="1497573928493" duration="8871000" />
+      <workItem from="1497834163274" duration="22672000" />
+      <workItem from="1498009577211" duration="11308000" />
+      <workItem from="1498092473487" duration="80000" />
+      <workItem from="1498092583939" duration="9200000" />
+      <workItem from="1498119670206" duration="2740000" />
+      <workItem from="1498179182697" duration="1077000" />
+      <workItem from="1498183214596" duration="26716000" />
+      <workItem from="1498439244393" duration="10939000" />
+      <workItem from="1498525046075" duration="4217000" />
+      <workItem from="1498629168957" duration="2537000" />
+      <workItem from="1498698659461" duration="4430000" />
+      <workItem from="1498785694737" duration="6821000" />
+      <workItem from="1499043482185" duration="6587000" />
+      <workItem from="1499130201050" duration="4871000" />
+      <workItem from="1499220984759" duration="5692000" />
+      <workItem from="1499240302236" duration="1477000" />
+      <workItem from="1499309301275" duration="5262000" />
+      <workItem from="1499398404607" duration="3606000" />
+      <workItem from="1499744419227" duration="5540000" />
+      <workItem from="1499823581265" duration="9543000" />
+      <workItem from="1499908422620" duration="6090000" />
+      <workItem from="1499995259038" duration="7801000" />
+      <workItem from="1500253010301" duration="12219000" />
+      <workItem from="1500341472163" duration="2703000" />
+      <workItem from="1500435133901" duration="2797000" />
+      <workItem from="1500446490930" duration="4490000" />
+      <workItem from="1500523061594" duration="5150000" />
+      <workItem from="1500602180552" duration="1807000" />
+      <workItem from="1500861437335" duration="5471000" />
+      <workItem from="1500953485117" duration="3511000" />
+      <workItem from="1501032883355" duration="6947000" />
+      <workItem from="1501116438547" duration="16160000" />
+      <workItem from="1501205208948" duration="7859000" />
+      <workItem from="1501463071734" duration="2553000" />
+      <workItem from="1501549983126" duration="9142000" />
+      <workItem from="1501637789909" duration="9319000" />
+      <workItem from="1501722793410" duration="5018000" />
+      <workItem from="1501808435451" duration="8812000" />
+      <workItem from="1502069460337" duration="4757000" />
+      <workItem from="1502153348895" duration="8413000" />
+      <workItem from="1502240709869" duration="3862000" />
+      <workItem from="1502326145340" duration="143000" />
+      <workItem from="1502326868036" duration="119000" />
+      <workItem from="1502326999891" duration="4058000" />
+      <workItem from="1502413712898" duration="461000" />
+      <workItem from="1502672163417" duration="4232000" />
+      <workItem from="1502844437167" duration="5853000" />
+      <workItem from="1502877399664" duration="319000" />
+      <workItem from="1502932438480" duration="11776000" />
+      <workItem from="1503018654979" duration="6934000" />
+      <workItem from="1503277716341" duration="2745000" />
+      <workItem from="1503367302518" duration="3784000" />
+      <workItem from="1503390291039" duration="42000" />
+      <workItem from="1503391081355" duration="2498000" />
+      <workItem from="1503536150428" duration="8286000" />
+      <workItem from="1503622204085" duration="7773000" />
+      <workItem from="1503881463314" duration="3548000" />
+      <workItem from="1503967682445" duration="8136000" />
+      <workItem from="1504076420512" duration="843000" />
+      <workItem from="1504169203356" duration="669000" />
+      <workItem from="1504227870856" duration="2690000" />
+      <workItem from="1504487415285" duration="526000" />
+      <workItem from="1504574973523" duration="998000" />
+      <workItem from="1504576139790" duration="9010000" />
+      <workItem from="1504660377090" duration="878000" />
+      <workItem from="1504747069907" duration="6404000" />
+      <workItem from="1505091518370" duration="15116000" />
+      <workItem from="1505177926178" duration="18444000" />
+      <workItem from="1505263511588" duration="606000" />
+      <workItem from="1505264660395" duration="19744000" />
+      <workItem from="1505350038781" duration="3934000" />
+      <workItem from="1505463848944" duration="1665000" />
+      <workItem from="1505696355242" duration="261000" />
+      <workItem from="1505782350739" duration="4276000" />
+      <workItem from="1506042387824" duration="383000" />
+      <workItem from="1506407869681" duration="335000" />
+      <workItem from="1506499333680" duration="386000" />
+      <workItem from="1506569775371" duration="401000" />
+      <workItem from="1507607234150" duration="1142000" />
+      <workItem from="1507711044828" duration="1492000" />
+      <workItem from="1507715223637" duration="184000" />
+      <workItem from="1507882843873" duration="1883000" />
+      <workItem from="1508221168897" duration="1688000" />
+      <workItem from="1508230110772" duration="1348000" />
+      <workItem from="1508308797044" duration="78000" />
+      <workItem from="1508317185918" duration="1678000" />
+      <workItem from="1508375902650" duration="4869000" />
+      <workItem from="1508461503968" duration="6047000" />
+      <workItem from="1508727068625" duration="8555000" />
+      <workItem from="1508810310539" duration="2791000" />
+      <workItem from="1508894274828" duration="6304000" />
+      <workItem from="1509326085628" duration="10372000" />
+      <workItem from="1509411376619" duration="4825000" />
+      <workItem from="1509498157751" duration="9518000" />
+      <workItem from="1509584395695" duration="10216000" />
+      <workItem from="1509670016324" duration="8765000" />
+      <workItem from="1509929880290" duration="17993000" />
+      <workItem from="1510016510238" duration="12031000" />
+      <workItem from="1510103012615" duration="13771000" />
+      <workItem from="1510189194062" duration="7055000" />
+      <workItem from="1510274976489" duration="11317000" />
+      <workItem from="1510537178862" duration="2610000" />
+      <workItem from="1510544701803" duration="1416000" />
+      <workItem from="1510557109517" duration="1612000" />
+      <workItem from="1510621078548" duration="5361000" />
+      <workItem from="1510707560581" duration="4688000" />
+      <workItem from="1510794225785" duration="1758000" />
+      <workItem from="1510883991157" duration="1597000" />
+      <workItem from="1511140181391" duration="9499000" />
+      <workItem from="1511226267023" duration="10857000" />
+      <workItem from="1511328660441" duration="5283000" />
+      <workItem from="1511399464868" duration="8991000" />
+      <workItem from="1511484361351" duration="12335000" />
+      <workItem from="1511763088205" duration="3589000" />
+      <workItem from="1511829976226" duration="287000" />
+      <workItem from="1511849323644" duration="7071000" />
+      <workItem from="1511916405108" duration="7009000" />
+      <workItem from="1512003709178" duration="6849000" />
+      <workItem from="1512033312976" duration="1133000" />
+      <workItem from="1512091412382" duration="7964000" />
+      <workItem from="1512348848094" duration="7960000" />
+      <workItem from="1512434587414" duration="8847000" />
+      <workItem from="1512461865553" duration="1937000" />
+      <workItem from="1512523694499" duration="1517000" />
+      <workItem from="1512608383911" duration="10742000" />
+      <workItem from="1512694078565" duration="7621000" />
+      <workItem from="1512800475148" duration="2018000" />
+      <workItem from="1512953679640" duration="1907000" />
+      <workItem from="1513043129629" duration="12412000" />
+      <workItem from="1513129873713" duration="9857000" />
+      <workItem from="1513216509723" duration="2886000" />
+      <workItem from="1513301482428" duration="3778000" />
+      <workItem from="1513557976880" duration="497000" />
+      <workItem from="1513645076845" duration="5369000" />
+      <workItem from="1513731597388" duration="2271000" />
+      <workItem from="1513908840501" duration="6358000" />
+      <workItem from="1514168492114" duration="2596000" />
+      <workItem from="1514273301248" duration="1685000" />
+      <workItem from="1514286012911" duration="4080000" />
+      <workItem from="1514959539677" duration="2634000" />
+      <workItem from="1515163715461" duration="884000" />
+      <workItem from="1515375187849" duration="25513000" />
+      <workItem from="1515486044523" duration="2645000" />
+      <workItem from="1515508322866" duration="5099000" />
+      <workItem from="1515558810199" duration="5152000" />
+      <workItem from="1515636226715" duration="8580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2057495000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30337077" sideWeight="0.49427754" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21067415" sideWeight="0.50572246" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2932761" sideWeight="0.743338" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25842696" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25894135" sideWeight="0.25666198" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816902" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816902" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30758426" sideWeight="0.49427754" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21199442" sideWeight="0.50572246" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23462088" sideWeight="0.743338" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25983146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25894135" sideWeight="0.25666198" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/common/CommonLib/src/basefun.cpp</url>
+          <line>215</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/network/common_tcp/WebSocketMgr.h</url>
+          <line>28</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Include/common/System.h</url>
+          <line>85</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Include/Package/hfbs/syspack/fb_login_rs_generated.h</url>
+          <line>46</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="63" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Include/base0/IExceptionHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/BaseConfig.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/basefun.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/BaseThread.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/crc32.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/DebugTrace.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/DebugTraceThread.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/Event.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/FileSerialize.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/IniEx.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/md5.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/MemorySerialize.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="578" column="33" lean-forward="false" selection-start-line="578" selection-start-column="33" selection-end-line="578" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/PacketQueue.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/System.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/U9Exception.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/U9File.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonLib/src/U9Process.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/EncryptLib/src/ASCIIEnrypt.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/EncryptLib/src/BlowFishEncrypt.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/EncryptLib/src/Encrypt.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/EncryptLib/src/TeaEncrypt.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/memcache/src/BaseMemCache.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/common/U9List.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/NetWS/prj/DLLExport.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_comet/tcpcomet/Src/ServerSide/ServerSide.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_logic/regserver/Src/ServerSide/ServerSide.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_logic/regserver/Src/ServerSide/ServerSide.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_logic/userserver/Src/ServerSide/ServerSide.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_logic/userserver/Src/ServerSide/ServerSide.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/server_common/ClientConn/User.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_comet/tcpcomet/linux_prj/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/base0/platform.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="234" column="26" lean-forward="false" selection-start-line="234" selection-start-column="20" selection-end-line="234" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_comet/tcpcomet/Src/stdafx.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/server_common/ClientConn/UserMgr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="26" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_comet/tcpcomet/Src/ServerMgr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="36" />
+          <folding>
+            <element signature="e#59#73#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_comet/tcpcomet/Src/ServerMgr.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="67" column="44" lean-forward="false" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/server_common/ClientConn/RegUserMgr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_comet/tcpcomet/Src/ServerSide/ServerSide.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="235" column="64" lean-forward="false" selection-start-line="235" selection-start-column="64" selection-end-line="235" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_comet/tcpcomet/linux_prj/makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="80" column="64" lean-forward="false" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/const/constdef.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="312" column="30" lean-forward="false" selection-start-line="312" selection-start-column="30" selection-end-line="312" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_logic/regserver/Src/ClientSide/ClientSide.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="209" column="29" lean-forward="false" selection-start-line="209" selection-start-column="29" selection-end-line="209" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/server_common/ClientConn/RegUserMgr.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/server_common/ClientConn/UserMgr.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+          <folding>
+            <element signature="e#178#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Include/common/RefObjMgrTemplate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_comet/wscomet/Src/ClientSide/ClientSide.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="175" column="17" lean-forward="false" selection-start-line="175" selection-start-column="17" selection-end-line="175" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_comet/tcpcomet/Src/ClientSide/ClientSide.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="421" column="17" lean-forward="false" selection-start-line="421" selection-start-column="17" selection-end-line="421" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_comet/tcpcomet/Src/ClientSide/ClientSide.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="79" column="22" lean-forward="false" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/server_common/ClientConn/User.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="932">
+          <caret line="66" column="12" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/common_tcp/EpollMgr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/common_tcp/BaseTCPMgr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="189" column="30" lean-forward="false" selection-start-line="189" selection-start-column="30" selection-end-line="189" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/common_tcp/EpollMgr.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="1089" column="61" lean-forward="true" selection-start-line="1089" selection-start-column="61" selection-end-line="1089" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

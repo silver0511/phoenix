@@ -1,0 +1,14 @@
+include "../../common/fbs/common.fbs";
+namespace grouppack;
+
+// 获取群组公告
+table T_GROUP_REMARK_DETAIL_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	group_id:ulong;									// 群组id
+	op_user_id:ulong;								// 修改者的user_id
+	op_ct:ulong;									// 修改时间
+	op_remark:string;								// 公告
+}
+
+root_type T_GROUP_REMARK_DETAIL_RS;

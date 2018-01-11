@@ -1,0 +1,9 @@
+include "../../common/fbs/common.fbs";
+namespace ecpack;
+
+table T_EC_SET_LOGINSTATUS_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;           //消息头
+}
+
+root_type T_EC_SET_LOGINSTATUS_RS;

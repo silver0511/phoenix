@@ -1,0 +1,25 @@
+include "../../common/fbs/common.fbs";
+include "./fb_group_info.fbs";
+
+namespace grouppack;
+
+table T_OPERATE_GROUP_MSG
+{
+	msg_time:ulong;									// 消息发送的时间
+	operate_user_name:string;						// 操作者名称
+	user_info_list:[commonpack.USER_BASE_INFO];		// 修改的群组用户成员
+	group_modify_content:string;					// 修改群名称、群公告、用户备注
+}
+
+table T_OFFLINE_GROUP_MSG
+{
+	user_id:ulong;									// 发送消息用户
+	message_id:ulong;								// 消息id
+	s_msg:commonpack.S_MSG;							// 群消息只有在群聊才不为空
+	big_msg_type:int;								// 消息操作类型
+	operate_group_msg:T_OPERATE_GROUP_MSG;			// 在建群、加人、踢人、转换群主有值
+	message_old_id:ulong; 							// 在群主同意别人邀请是需要上传
+	group_info:T_GROUP_BASE_INFO;					// 只有在big_msg_type!=1的时候才会有值
+}
+
+root_type T_OFFLINE_GROUP_MSG;

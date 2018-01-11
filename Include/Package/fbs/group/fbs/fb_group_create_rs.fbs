@@ -1,0 +1,15 @@
+include "../../common/fbs/common.fbs";
+include "./fb_group_offline_msg.fbs";
+include "./fb_group_info.fbs";
+
+namespace grouppack;
+
+table T_GROUP_CREATE_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	group_info:T_GROUP_BASE_INFO;
+	offline_group_msg:T_OFFLINE_GROUP_MSG;
+	group_type:int;
+}
+
+root_type T_GROUP_CREATE_RS;

@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+include "./fb_group_type_info.fbs";
+namespace grouppack;
+
+// 获取群类型列表
+table T_GROUP_TYPE_LIST_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+    list_group_type_info:[T_GROUP_TYPE_INFO];
+}
+
+root_type T_GROUP_TYPE_LIST_RS;

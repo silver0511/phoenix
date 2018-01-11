@@ -1,0 +1,13 @@
+include "../../common/fbs/common.fbs";
+
+namespace syspack;
+
+// 用户注册RQ
+table T_SMS_VALID_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	nation_code:int;                 //区号
+	mobile:ulong;                    //手机号码
+}
+
+root_type T_SMS_VALID_RQ;

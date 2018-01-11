@@ -1,0 +1,13 @@
+include "../../common/fbs/common.fbs";
+
+namespace userpack;
+
+// 获取用户列表信息包
+table T_GET_USERLST_INFO_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	userLst:[ulong];					//用户ID列表
+	mobileLst:[ulong];					//手机号码列表
+}
+
+root_type T_GET_USERLST_INFO_RQ;

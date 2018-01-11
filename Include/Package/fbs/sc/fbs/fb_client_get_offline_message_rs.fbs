@@ -1,0 +1,13 @@
+include "../../common/fbs/common.fbs";
+include "./fb_offline_msg.fbs";
+
+namespace scpack;
+
+table T_CHAT_GET_OFFLINE_MESSAGE_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	next_message_id:ulong;										// 离线便宜量
+	s_offline_msg_list:[T_OFFLINE_MSG];							// 单聊信息离线列表
+}
+
+root_type T_CHAT_GET_OFFLINE_MESSAGE_RS;

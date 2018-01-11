@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+
+namespace scpack;
+
+// 获取单聊离线信息
+table T_CHAT_GET_OFFLINE_MESSAGE_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	next_message_id:ulong;								// 获取单聊离线信息开始的消息唯一标识符
+}
+
+root_type T_CHAT_GET_OFFLINE_MESSAGE_RQ;

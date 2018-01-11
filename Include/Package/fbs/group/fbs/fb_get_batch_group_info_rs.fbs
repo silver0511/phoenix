@@ -1,0 +1,13 @@
+include "../../common/fbs/common.fbs";
+include "./fb_group_info.fbs";
+
+namespace grouppack;
+
+table T_GET_BATCH_GROUP_INFO_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	list_group_id:[ulong];
+    list_group_info:[T_GROUP_BASE_INFO];
+}
+
+root_type T_GET_BATCH_GROUP_INFO_RS;

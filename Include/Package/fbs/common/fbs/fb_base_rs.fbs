@@ -1,0 +1,11 @@
+include "common.fbs";
+
+namespace commonpack;
+
+// 这个结构只有在出现解包失败的时候，会用到
+table T_BASE_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+}
+
+root_type T_BASE_RS;

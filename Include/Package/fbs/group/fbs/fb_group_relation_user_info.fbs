@@ -1,0 +1,10 @@
+namespace grouppack;
+
+table T_GROUP_RELATION_USER_INFO
+{
+	group_id:ulong;											// 群id
+	message_status:byte; 									// 群助手状态 属于用户属性
+    save_type:byte;
+}
+
+root_type T_GROUP_RELATION_USER_INFO;

@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+
+namespace syspack;
+
+// 用户注册RQ
+table T_REG_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	account_info:commonpack.ACCOUNT_INFO;   //平台信息
+}
+
+root_type T_REG_RQ;

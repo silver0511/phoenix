@@ -1,0 +1,11 @@
+include "./fb_group_offline_msg.fbs";
+namespace grouppack;
+
+table T_GROUP_ALL_OFFLINE_MSG
+{
+	is_finish:byte;
+	group_id:ulong;											// group_id
+	s_offline_msg_list:[T_OFFLINE_GROUP_MSG];				// 群离线列表  T_OFFLINE_GROUP_MSG
+}
+
+root_type T_GROUP_ALL_OFFLINE_MSG;

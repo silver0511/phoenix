@@ -1,0 +1,14 @@
+include "../../common/fbs/common.fbs";
+
+namespace userpack;
+
+//用户举报信息包
+table T_USER_COMPLAINT_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	user_id:ulong;					//被举报用户ID
+	type:byte;						//举报类型:1,法律法规 2,色情暴力 3,虚假诈骗 4,骚扰 5,其他
+	reason:string;					//理由说明
+}
+
+root_type T_USER_COMPLAINT_RS;

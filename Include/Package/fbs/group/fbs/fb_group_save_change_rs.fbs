@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+namespace grouppack;
+
+// 获取群组公告
+table T_GROUP_SAVE_CHANGE_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+    group_id:ulong; 								// 群组id
+    save_type:byte;                                 // 是否存储通讯录 0不存储 1存储
+}
+
+root_type T_GROUP_SAVE_CHANGE_RS;

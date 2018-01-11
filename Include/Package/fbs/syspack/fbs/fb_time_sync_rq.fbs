@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+
+namespace syspack;
+
+//时间同步请求包
+table T_TIME_SYNC_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+}
+
+root_type T_TIME_SYNC_RQ;

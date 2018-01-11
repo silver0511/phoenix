@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+
+namespace userpack;
+
+//推送注册请求包
+table T_REGISTER_APNS_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+    device_token:string;
+}
+
+root_type T_REGISTER_APNS_RQ;

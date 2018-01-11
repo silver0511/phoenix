@@ -1,0 +1,16 @@
+include "../../common/fbs/common.fbs";
+
+namespace scpack;
+
+// 单聊包 服务器回给客户端的包
+table T_CHAT_CLIENT_SEND_MESSAGE_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	op_user_id:ulong;							// 聊天的用户的user_id
+	message_id:ulong;							// 聊天信息的唯一标识
+	s_msg:commonpack.S_MSG;						// 聊天信息结构 里面存储聊天类型 内容等
+	b_id:ulong;									// 只是一个id类型，可以代表：商家id或者其他的id
+	w_id:ulong;									// 只是一个id类型，可以代表：小二id或者其他的id
+	c_id:ulong;									// 只是一个id类型，可以代表：客户id或者其他的id
+}
+root_type T_CHAT_CLIENT_SEND_MESSAGE_RS;

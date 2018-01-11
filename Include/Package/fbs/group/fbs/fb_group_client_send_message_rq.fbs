@@ -1,0 +1,15 @@
+include "../../common/fbs/common.fbs";
+
+namespace grouppack;
+
+// 群聊 客户端发送包
+table T_GROUP_CLIENT_SEND_MESSAGE_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	message_id:ulong;							// 消息唯一标识
+	group_id:ulong;								// 群组id
+	s_msg:commonpack.S_MSG;						// 聊天信息结构 里面存储聊天类型 内容等
+	group_name:string;
+}
+
+root_type T_GROUP_CLIENT_SEND_MESSAGE_RQ;

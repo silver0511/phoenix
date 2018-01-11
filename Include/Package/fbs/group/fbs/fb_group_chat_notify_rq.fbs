@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+
+namespace grouppack;
+
+table T_GROUP_CHAT_NOTIFY_RQ
+{
+	group_id:ulong;
+	group_name:string;
+}
+
+root_type T_GROUP_CHAT_NOTIFY_RQ;

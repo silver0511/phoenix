@@ -1,0 +1,14 @@
+include "../../common/fbs/common.fbs";
+namespace friendpack;
+
+table T_FRIEND_SERVER_ADD_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	op_msg:string;
+	peer_user_name:string;             //好友昵称
+	peer_user_id:ulong;              //好友ID
+	source_type:byte;                 //好友来源
+	token:ulong;                     //操作token
+}
+
+root_type T_FRIEND_SERVER_ADD_RQ;

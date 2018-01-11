@@ -1,0 +1,46 @@
+namespace commonpack;
+
+// 请求包中的共有字段 所有的RQ中都会包含
+struct S_RQ_HEAD
+{
+	user_id:ulong;					// 用户user_id
+	pack_session_id:int;			// 代表包的唯一性，在发送RQ时，递增
+	platform:byte;					// 用户平台
+}
+
+// 所有RS包中共有的字段
+struct S_RS_HEAD
+{
+	user_id:ulong;					// 用户user_id
+	pack_session_id:int;			// 跟RQ中的字段一样，直接用RQ中的字段返回
+	result:int;						// 表示这个包逻辑是否成功处理
+	platform:byte;					// 用户平台
+}
+
+table S_MSG
+{
+	app_id:short;					// 子公司id
+	session_id:int;					// 保留字段 会话id
+	chat_type:short;				// 聊天类型（单聊、群聊等）
+	m_type:int;						// 消息类型（文本、图片、地图等）
+	s_type:int;						// 消息类型扩展（红包、订单、名片等）
+	ext_type:int;					// 保留字段 以后扩展
+	msg_content:string;				// 消息内容
+	msg_time:long;					// 消息发送的时间
+	send_user_name:string;			// 群聊就是群成员名称，单聊就是用户昵称
+}
+
+table USER_BASE_INFO
+{
+	user_id:ulong;
+	user_nick_name:string;			// 用户昵称
+	user_group_index:int;			// 用户在群中位置 群主根据位置排序 
+}
+
+table ACCOUNT_INFO
+{
+    account_type:ulong;             // 账号类型[手机、邮箱、微信、QQ】
+    target_user_id:ulong;           // 第三方登录ID
+    target_user_token:string;       // 第三方登录TOKEN
+    target_user_name:string;        // 第三方登录名称
+}

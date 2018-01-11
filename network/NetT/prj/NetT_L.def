@@ -1,0 +1,7 @@
+; NetT_L.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NetT_l"
+
+EXPORTS
+    ; Explicit exports can go here
+	CreateNetTCP;

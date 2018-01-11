@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+namespace grouppack;
+
+table T_GROUP_DETAIL_INFO_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	group_id:ulong;
+	group_member_index:int;
+}
+
+root_type T_GROUP_DETAIL_INFO_RQ;

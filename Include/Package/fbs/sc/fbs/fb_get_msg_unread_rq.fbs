@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+
+namespace scpack;
+
+table T_GET_MSG_UNREAD_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	list_b_id:[ulong];
+}
+
+root_type T_GET_MSG_UNREAD_RQ;

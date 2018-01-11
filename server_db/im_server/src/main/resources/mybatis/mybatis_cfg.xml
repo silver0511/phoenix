@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="cacheEnabled" value="true" />
+		<setting name="lazyLoadingEnabled" value="false" />
+		<setting name="aggressiveLazyLoading" value="false" />
+		<setting name="multipleResultSetsEnabled" value="true" />
+		<setting name="useColumnLabel" value="true" />
+		<setting name="useGeneratedKeys" value="true" />
+		<setting name="autoMappingBehavior" value="FULL" />
+		<setting name="defaultExecutorType" value="REUSE" />
+		<setting name="defaultStatementTimeout" value="60" />
+	</settings>
+	<typeAliases>
+		<typeAlias type="com.qbao.im.api.entity.Friend" alias="Friend"/>
+		<typeAlias type="com.qbao.im.api.entity.Group" alias="Group"/>
+		<typeAlias type="com.qbao.im.api.entity.GroupMember" alias="GroupMember"/>
+		<!--<typeAlias type="com.qbao.im.api.entity.MemberGroupList" alias="MemberGroupList"/>-->
+		<typeAlias type="com.qbao.im.api.entity.PrivateMessage" alias="PrivateMessage"/>
+		<typeAlias type="com.qbao.im.api.entity.MerchantMessage" alias="MerchantMessage" />
+	</typeAliases>
+</configuration>

@@ -1,0 +1,19 @@
+include "../../common/fbs/common.fbs";
+
+namespace userpack;
+
+
+table T_KEYINFO
+{
+	key_name:int;		//属性名称
+	key_value:string;	//属性值
+}
+// 修改用户信息包
+table T_UPDATE_USER_INFO_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;		//公共包头
+	key_lst_info:[T_KEYINFO];			//属性列表
+}
+
+
+root_type T_UPDATE_USER_INFO_RQ;

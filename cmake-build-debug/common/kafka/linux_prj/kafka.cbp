@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="kafka"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\common\;CMake Files\common\CommonLib\;CMake Files\common\CommonLib\linux_prj\;CMake Files\common\EncryptLib\;CMake Files\common\EncryptLib\linux_prj\;CMake Files\common\jsoncmdpacket\;CMake Files\common\jsoncmdpacket\linux_prj\;CMake Files\common\kafka\;CMake Files\common\kafka\linux_prj\;CMake Files\common\memcache\;CMake Files\common\memcache\linux_prj\;CMake Files\common\mysqlpool\;CMake Files\common\mysqlpool\linux_prj\;CMake Files\common\redisclient\;CMake Files\common\redisclient\linux_prj\;CMake Files\network\;CMake Files\network\NetT\;CMake Files\network\NetT\linux_prj\;CMake Files\network\NetTPool\;CMake Files\network\NetTPool\linux_prj\;CMake Files\network\NetWS\;CMake Files\network\NetWS\linux_prj\;CMake Files\server\;CMake Files\server\fdserver\;CMake Files\server\fdserver\linux_prj\;CMake Files\server\gcroute\;CMake Files\server\gcroute\linux_prj\;CMake Files\server\gcserver\;CMake Files\server\gcserver\linux_prj\;CMake Files\server\tcpcomet\;CMake Files\server\tcpcomet\linux_prj\;CMake Files\server\wscomet\;CMake Files\server\wscomet\linux_prj\;CMake Files\server\userserver\;CMake Files\server\userserver\linux_prj\;CMake Files\server\scserver\;CMake Files\server\scserver\linux_prj\;CMake Files\server\scroute\;CMake Files\server\scroute\linux_prj\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kafka">
+				<Option output="/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/libkafka.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/kafka/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/kafka/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/Makefile&quot;  VERBOSE=1 kafka"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kafka/fast">
+				<Option output="/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/libkafka.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/kafka/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/kafka/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/Makefile&quot;  VERBOSE=1 kafka/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/server/qbao/qbim/cmake-build-debug/common/kafka/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/kafka/src/KafkaMgr.cpp">
+			<Option target="kafka"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/kafka/src/KafkaProducer.cpp">
+			<Option target="kafka"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/CommonLib/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\CommonLib\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/CommonLib/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\CommonLib\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/EncryptLib/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\EncryptLib\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/EncryptLib/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\EncryptLib\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/jsoncmdpacket/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\jsoncmdpacket\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/jsoncmdpacket/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\jsoncmdpacket\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/kafka/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\kafka\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/kafka/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\kafka\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/memcache/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\memcache\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/memcache/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\memcache\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/mysqlpool/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\mysqlpool\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/mysqlpool/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\mysqlpool\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/redisclient/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\redisclient\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/common/redisclient/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\redisclient\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/network/NetT/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetT\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/network/NetT/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetT\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/network/NetTPool/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetTPool\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/network/NetTPool/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetTPool\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/network/NetWS/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetWS\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/network/NetWS/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetWS\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/fdserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\fdserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/fdserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\fdserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/gcroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\gcroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/gcroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\gcroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/gcserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\gcserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/gcserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\gcserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/tcpcomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\tcpcomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/tcpcomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\tcpcomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/wscomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\wscomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/wscomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\wscomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/userserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\userserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/userserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\userserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/scserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\scserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/scserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\scserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/scroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\scroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/server/qbao/qbim/server/scroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\scroute\linux_prj\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

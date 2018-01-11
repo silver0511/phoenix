@@ -1,0 +1,9 @@
+include "../../common/fbs/common.fbs";
+namespace ecpack;
+
+table T_EC_SETBUSINESS_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	sellerId:ulong;                      //商家ID
+}
+root_type T_EC_SETBUSINESS_RS;

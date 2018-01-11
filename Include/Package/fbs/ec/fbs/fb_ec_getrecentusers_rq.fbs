@@ -1,0 +1,9 @@
+include "../../common/fbs/common.fbs";
+namespace ecpack;
+
+table T_EC_GETRECENTUSERS_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	b_id:ulong;                          //商家ID
+}
+root_type T_EC_GETRECENTUSERS_RQ;

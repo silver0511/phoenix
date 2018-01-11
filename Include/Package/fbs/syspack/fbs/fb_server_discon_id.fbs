@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+
+namespace syspack;
+
+table T_SERVER_DISCON_ID
+{
+	result:int;		//踢人错误码
+}
+
+
+root_type T_SERVER_DISCON_ID;

@@ -1,0 +1,10 @@
+include "../../common/fbs/common.fbs";
+namespace grouppack;
+
+table T_GROUP_LIST_IDS_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	group_list_index:int;
+}
+
+root_type T_GROUP_LIST_IDS_RQ;

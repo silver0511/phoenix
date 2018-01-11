@@ -1,0 +1,20 @@
+include "../../common/fbs/common.fbs";
+namespace grouppack;
+
+table T_GROUP_BASE_INFO
+{
+	group_id:ulong;											// 群id
+	group_name:string;										// 群名称
+	group_img_url:string;									// 群头像
+	group_count:int;										// 当前人数
+	group_manager_user_id:ulong;							// 群主id
+	group_add_is_agree:byte;								// 加人是否需要群主同意
+	group_ct:ulong;											// 建群时间
+	group_remark:string;									// 群公告
+	group_max_count:int;									// 群最大人数
+
+	message_status:byte; 									// 群助手状态 属于用户属性
+	group_add_max_count:int;								// 群一次人数最大变动个数 建群、邀请、踢人
+}
+
+root_type T_GROUP_BASE_INFO;

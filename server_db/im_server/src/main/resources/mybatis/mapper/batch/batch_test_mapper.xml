@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qbao.im.api.dao.IBatch" >
+	<insert id="batchSave" parameterType="Map" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO ${tabName} (group_id,user_id,create_time) VALUES
+		<foreach collection="list" separator="," item="item" index="index">
+			(#{item.groupid},#{item.userid},NOW())
+		</foreach>
+	</insert>
+
+</mapper>

@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+
+namespace grouppack;
+
+table T_GROUP_GET_USER_REMARK_NAME_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	group_id:ulong;
+    user_remark_name:string;                                    // 用户备注昵称
+}
+
+root_type T_GROUP_GET_USER_REMARK_NAME_RS;

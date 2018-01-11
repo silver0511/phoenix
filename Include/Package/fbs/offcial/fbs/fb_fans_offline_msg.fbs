@@ -1,0 +1,16 @@
+include "../../common/fbs/common.fbs";
+
+namespace offcialpack;
+
+// 公众号获取离线消息结构
+table T_FANS_OFFLINE_MESSAGE
+{
+	user_id:ulong;
+	message_id:ulong;									// 消息唯一标识
+	s_msg:commonpack.S_MSG;						// 聊天信息结构 里面存储聊天类型 内容等
+	b_id:ulong;									// 只是一个id类型，可以代表：商家id或者其他的id
+	w_id:ulong;									// 只是一个id类型，可以代表：小二id或者其他的id
+	c_id:ulong;									// 只是一个id类型，可以代表：客户id或者其他的id
+}
+
+root_type T_FANS_OFFLINE_MESSAGE;

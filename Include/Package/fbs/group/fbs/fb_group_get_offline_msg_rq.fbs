@@ -1,0 +1,13 @@
+include "../../common/fbs/common.fbs";
+include "./fb_group_base_request.fbs";
+
+namespace grouppack;
+
+// 获取群聊天离线信息
+table T_GROUP_GET_OFFLINE_MESSAGE_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	list_group_offline_msg_request:[T_GROUP_BASE_REQUEST];
+}
+
+root_type T_GROUP_GET_OFFLINE_MESSAGE_RQ;

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qbao.im.api.dao.IGroupDao" >
+	<insert id="save" parameterType="Group" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO ${tabName}
+		<trim prefix="(" suffixOverrides="," suffix=")">
+			<if test="group_id != null ">
+				group_id,
+			</if>
+			<if test="group_name != null and group_name != ''">
+				group_name,
+			</if>
+			<if test="group_avater != null and group_avater != ''">
+				group_avater,
+			</if>
+			<if test="group_remark != null and group_remark != ''">
+				group_remark,
+			</if>
+			<if test="group_manager_user_id != null">
+				group_manager_user_id,
+			</if>
+			<if test="group_count != null">
+				group_count,
+			</if>
+			<if test="group_max_count != null">
+				group_max_count,
+			</if>
+			<if test="group_add_max_count != null">
+				group_add_max_count,
+			</if>
+			<if test="introduce != null and introduce != ''">
+				introduce,
+			</if>
+			<if test="group_ct != null">
+				group_ct,
+			</if>
+			<if test="update_date != null">
+				update_date,
+			</if>
+			<if test="update_user != null and update_user != ''">
+				update_user,
+			</if>
+			<if test="remark_update_time != null">
+				remark_update_time,
+			</if>
+		</trim>
+		<trim prefix="VALUES (" suffixOverrides="," suffix=")">
+			<if test="group_id != null ">
+				#{group_id},
+			</if>
+			<if test="group_name != null and group_name != ''">
+				#{group_name},
+			</if>
+			<if test="group_avater != null and group_avater != ''">
+				#{group_avater},
+			</if>
+			<if test="group_remark != null and group_remark != ''">
+				#{group_remark},
+			</if>
+			<if test="group_manager_user_id != null">
+				#{group_manager_user_id},
+			</if>
+			<if test="group_count != null">
+				#{group_count},
+			</if>
+			<if test="group_max_count != null">
+				#{group_max_count},
+			</if>
+			<if test="group_add_max_count != null">
+				#{group_add_max_count},
+			</if>
+			<if test="introduce != null and introduce != ''">
+				#{introduce},
+			</if>
+			<if test="group_ct != null">
+				NOW(),
+			</if>
+			<if test="update_date != null">
+				#{update_date},
+			</if>
+			<if test="update_user != null and update_user != ''">
+				#{update_user},
+			</if>
+			<if test="remark_update_time != null">
+				#{remark_update_time},
+			</if>
+		</trim>
+	</insert>
+
+	<select id="query" parameterType="Group" resultType="Group">
+		SELECT id,group_id,group_name,group_add_is_agree,group_avater,group_remark,group_manager_user_id,group_count,group_max_count,group_add_max_count,introduce,group_ct,update_date,update_user,group_add_is_agree,remark_update_time from ${tabName}
+		<where>
+			1 = 1
+			<if test="group_id != null">
+				AND group_id = #{group_id}
+			</if>
+			<if test="group_manager_user_id != null">
+				AND group_manager_user_id = #{group_manager_user_id}
+			</if>
+		</where>
+	</select>
+
+	<update id="update" parameterType="Group">
+		UPDATE ${tabName}
+		<trim prefix="set" suffixOverrides=",">
+			<if test="group_name != null and group_name != ''">
+				group_name = #{group_name},
+			</if>
+			<if test="group_avater != null and group_avater != ''">
+				group_avater = #{group_avater},
+			</if>
+			<if test="group_manager_user_id != null">
+				group_manager_user_id = #{group_manager_user_id},
+			</if>
+			<if test="group_count != null">
+				group_count = #{group_count},
+			</if>
+			<if test="group_max_count != null">
+				group_max_count = #{group_max_count},
+			</if>
+			<if test="introduce != null and introduce != ''">
+				introduce = #{introduce},
+			</if>
+			<if test="update_date != null">
+				update_date = #{update_date},
+			</if>
+			<if test="update_user != null">
+				update_user = #{update_user},
+			</if>
+			<if test="group_add_is_agree != null">
+				group_add_is_agree = #{group_add_is_agree},
+			</if>
+			<if test="remark_update_time != null">
+				remark_update_time = #{remark_update_time},
+			</if>
+		</trim>
+		 ,group_remark = #{group_remark}
+		<where>
+			group_id = #{group_id}
+		</where>
+	</update>
+
+	<delete id="del" parameterType="Group">
+		DELETE FROM ${tabName}
+		<where>
+			group_id = #{group_id}
+		</where>
+	</delete>
+
+	<select id="isExsist" parameterType="Group" resultType="int">
+		SELECT COUNT(1) from ${tabName}
+		<where>
+			group_id = #{group_id}
+		</where>
+	</select>
+</mapper>

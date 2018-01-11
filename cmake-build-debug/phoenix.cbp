@@ -1,0 +1,2597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="phoenix"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\common\;CMake Files\common\CommonLib\;CMake Files\common\CommonLib\linux_prj\;CMake Files\common\EncryptLib\;CMake Files\common\EncryptLib\linux_prj\;CMake Files\common\memcache\;CMake Files\common\memcache\linux_prj\;CMake Files\common\mysqlpool\;CMake Files\common\mysqlpool\linux_prj\;CMake Files\network\;CMake Files\network\NetHttp\;CMake Files\network\NetHttp\linux_prj\;CMake Files\network\NetT\;CMake Files\network\NetT\linux_prj\;CMake Files\network\NetTB\;CMake Files\network\NetTB\linux_prj\;CMake Files\network\NetTPool\;CMake Files\network\NetTPool\linux_prj\;CMake Files\network\NetWS\;CMake Files\network\NetWS\linux_prj\;CMake Files\server_logic\;CMake Files\server_logic\dbtest\;CMake Files\server_logic\dbtest\linux_prj\;CMake Files\server_logic\ecserver\;CMake Files\server_logic\ecserver\linux_prj\;CMake Files\server_logic\fdserver\;CMake Files\server_logic\fdserver\linux_prj\;CMake Files\server_logic\gcserver\;CMake Files\server_logic\gcserver\linux_prj\;CMake Files\server_logic\offcialserver\;CMake Files\server_logic\offcialserver\linux_prj\;CMake Files\server_logic\groupserver\;CMake Files\server_logic\groupserver\linux_prj\;CMake Files\server_logic\regserver\;CMake Files\server_logic\regserver\linux_prj\;CMake Files\server_logic\userserver\;CMake Files\server_logic\userserver\linux_prj\;CMake Files\server_logic\scserver\;CMake Files\server_logic\scserver\linux_prj\;CMake Files\server_route\;CMake Files\server_route\gcroute\;CMake Files\server_route\gcroute\linux_prj\;CMake Files\server_route\pcroute\;CMake Files\server_route\pcroute\linux_prj\;CMake Files\server_route\scroute\;CMake Files\server_route\scroute\linux_prj\;CMake Files\server_comet\;CMake Files\server_comet\httpcomet\;CMake Files\server_comet\httpcomet\linux_prj\;CMake Files\server_comet\tcpcomet\;CMake Files\server_comet\tcpcomet\linux_prj\;CMake Files\server_comet\wscomet\;CMake Files\server_comet\wscomet\linux_prj\;CMake Files\public\;CMake Files\public\kafka\;CMake Files\public\kafka\linux_prj\;CMake Files\public\redisclient\;CMake Files\public\redisclient\linux_prj\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CommonLib">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/CommonLib/linux_prj/libCommonLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/CommonLib/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/CommonLib/linux_prj/Makefile&quot;  VERBOSE=1 CommonLib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/CommonLib/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/CommonLib/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/CommonLib/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CommonLib/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/CommonLib/linux_prj/libCommonLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/CommonLib/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/CommonLib/linux_prj/Makefile&quot;  VERBOSE=1 CommonLib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/CommonLib/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/CommonLib/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/CommonLib/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EncryptLib">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/EncryptLib/linux_prj/libEncryptLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/EncryptLib/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/EncryptLib/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/EncryptLib/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/EncryptLib/linux_prj/Makefile&quot;  VERBOSE=1 EncryptLib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/EncryptLib/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/EncryptLib/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/EncryptLib/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EncryptLib/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/EncryptLib/linux_prj/libEncryptLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/EncryptLib/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/EncryptLib/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/EncryptLib/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/EncryptLib/linux_prj/Makefile&quot;  VERBOSE=1 EncryptLib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/EncryptLib/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/EncryptLib/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/EncryptLib/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memcache">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/memcache/linux_prj/libmemcache.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/memcache/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/memcache/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/memcache/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/memcache/linux_prj/Makefile&quot;  VERBOSE=1 memcache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/memcache/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/memcache/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/memcache/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memcache/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/memcache/linux_prj/libmemcache.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/memcache/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/memcache/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/memcache/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/memcache/linux_prj/Makefile&quot;  VERBOSE=1 memcache/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/memcache/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/memcache/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/memcache/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mysqlpool">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/mysqlpool/linux_prj/libmysqlpool.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/mysqlpool/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/mysqlpool/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/mysqlpool/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/mysqlpool/linux_prj/Makefile&quot;  VERBOSE=1 mysqlpool"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/mysqlpool/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/mysqlpool/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/mysqlpool/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mysqlpool/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/mysqlpool/linux_prj/libmysqlpool.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/mysqlpool/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/mysqlpool/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/mysqlpool/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/mysqlpool/linux_prj/Makefile&quot;  VERBOSE=1 mysqlpool/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/mysqlpool/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/mysqlpool/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/common/mysqlpool/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kafka">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/kafka/linux_prj/libkafka.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/kafka/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/kafka/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/kafka/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/kafka/linux_prj/Makefile&quot;  VERBOSE=1 kafka"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/kafka/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/kafka/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/kafka/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kafka/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/kafka/linux_prj/libkafka.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/kafka/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/kafka/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/kafka/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/kafka/linux_prj/Makefile&quot;  VERBOSE=1 kafka/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/kafka/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/kafka/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/kafka/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redisclient">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/redisclient/linux_prj/libredisclient.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/redisclient/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/redisclient/linux_prj/Makefile&quot;  VERBOSE=1 redisclient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/redisclient/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/redisclient/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/redisclient/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redisclient/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/redisclient/linux_prj/libredisclient.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/redisclient/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/linux_prj/../../../Include/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/redisclient/linux_prj/Makefile&quot;  VERBOSE=1 redisclient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/redisclient/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/redisclient/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/public/redisclient/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NetT">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetT/linux_prj/libNetT.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetT/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/linux_prj/../../common_tcp"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/linux_prj/../prj"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetT/linux_prj/Makefile&quot;  VERBOSE=1 NetT"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetT/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetT/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetT/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NetT/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetT/linux_prj/libNetT.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetT/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/linux_prj/../../common_tcp"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/linux_prj/../prj"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetT/linux_prj/Makefile&quot;  VERBOSE=1 NetT/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetT/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetT/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetT/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NetTB">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTB/linux_prj/libNetTB.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTB/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/linux_prj/../../common_tcp"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/linux_prj/../prj"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTB/linux_prj/Makefile&quot;  VERBOSE=1 NetTB"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTB/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTB/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTB/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NetTB/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTB/linux_prj/libNetTB.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTB/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/linux_prj/../../common_tcp"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/linux_prj/../prj"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTB/linux_prj/Makefile&quot;  VERBOSE=1 NetTB/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTB/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTB/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTB/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NetWS">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetWS/linux_prj/libNetWS.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetWS/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWEBSOCKETPP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/linux_prj/../../common_tcp"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/linux_prj/../prj"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetWS/linux_prj/Makefile&quot;  VERBOSE=1 NetWS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetWS/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetWS/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetWS/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NetWS/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetWS/linux_prj/libNetWS.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetWS/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWEBSOCKETPP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/linux_prj/../../common_tcp"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/linux_prj/../prj"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetWS/linux_prj/Makefile&quot;  VERBOSE=1 NetWS/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetWS/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetWS/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetWS/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NetHTTP">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetHttp/linux_prj/libNetHTTP.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetHttp/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWEBSOCKETPP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/linux_prj/../../common_tcp"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/linux_prj/../prj"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetHttp/linux_prj/Makefile&quot;  VERBOSE=1 NetHTTP"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetHttp/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetHttp/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetHttp/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NetHTTP/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetHttp/linux_prj/libNetHTTP.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetHttp/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWEBSOCKETPP"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/linux_prj/../../common_tcp"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/linux_prj/../prj"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetHttp/linux_prj/Makefile&quot;  VERBOSE=1 NetHTTP/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetHttp/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetHttp/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetHttp/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NetTPool">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTPool/linux_prj/libNetTPool.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTPool/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/linux_prj/../prj"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/linux_prj/../src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTPool/linux_prj/Makefile&quot;  VERBOSE=1 NetTPool"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTPool/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTPool/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTPool/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NetTPool/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTPool/linux_prj/libNetTPool.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTPool/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/linux_prj/../prj"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/linux_prj/../src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTPool/linux_prj/Makefile&quot;  VERBOSE=1 NetTPool/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTPool/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTPool/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/network/NetTPool/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpcomet">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/tcpcomet/linux_prj/tcpcomet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/tcpcomet/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/tcpcomet/linux_prj/Makefile&quot;  VERBOSE=1 tcpcomet"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/tcpcomet/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/tcpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/tcpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpcomet/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/tcpcomet/linux_prj/tcpcomet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/tcpcomet/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/tcpcomet/linux_prj/Makefile&quot;  VERBOSE=1 tcpcomet/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/tcpcomet/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/tcpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/tcpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wscomet">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/wscomet/linux_prj/wscomet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/wscomet/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/wscomet/linux_prj/Makefile&quot;  VERBOSE=1 wscomet"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/wscomet/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/wscomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/wscomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wscomet/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/wscomet/linux_prj/wscomet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/wscomet/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/wscomet/linux_prj/Makefile&quot;  VERBOSE=1 wscomet/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/wscomet/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/wscomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/wscomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpcomet">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/httpcomet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 httpcomet"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpcomet/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/httpcomet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 httpcomet/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_comet/httpcomet/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="regserver">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/regserver/linux_prj/regserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/regserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/regserver/linux_prj/Makefile&quot;  VERBOSE=1 regserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/regserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/regserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/regserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="regserver/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/regserver/linux_prj/regserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/regserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/regserver/linux_prj/Makefile&quot;  VERBOSE=1 regserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/regserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/regserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/regserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="userserver">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/userserver/linux_prj/userserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/userserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/userserver/linux_prj/Makefile&quot;  VERBOSE=1 userserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/userserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/userserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/userserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="userserver/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/userserver/linux_prj/userserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/userserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/userserver/linux_prj/Makefile&quot;  VERBOSE=1 userserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/userserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/userserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/userserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scserver">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/scserver/linux_prj/scserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/scserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/scserver/linux_prj/Makefile&quot;  VERBOSE=1 scserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/scserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/scserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/scserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scserver/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/scserver/linux_prj/scserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/scserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/scserver/linux_prj/Makefile&quot;  VERBOSE=1 scserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/scserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/scserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/scserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gcserver">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/gcserver/linux_prj/gcserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/gcserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/gcserver/linux_prj/Makefile&quot;  VERBOSE=1 gcserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/gcserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/gcserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/gcserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gcserver/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/gcserver/linux_prj/gcserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/gcserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/gcserver/linux_prj/Makefile&quot;  VERBOSE=1 gcserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/gcserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/gcserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/gcserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="groupserver">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/groupserver/linux_prj/groupserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/groupserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/groupserver/linux_prj/Makefile&quot;  VERBOSE=1 groupserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/groupserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/groupserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/groupserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="groupserver/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/groupserver/linux_prj/groupserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/groupserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/groupserver/linux_prj/Makefile&quot;  VERBOSE=1 groupserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/groupserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/groupserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/groupserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fdserver">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/fdserver/linux_prj/fdserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/fdserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/fdserver/linux_prj/Makefile&quot;  VERBOSE=1 fdserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/fdserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/fdserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/fdserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fdserver/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/fdserver/linux_prj/fdserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/fdserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/fdserver/linux_prj/Makefile&quot;  VERBOSE=1 fdserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/fdserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/fdserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/fdserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ecserver">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/ecserver/linux_prj/ecserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/ecserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/ecserver/linux_prj/Makefile&quot;  VERBOSE=1 ecserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/ecserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/ecserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/ecserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ecserver/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/ecserver/linux_prj/ecserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/ecserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/ecserver/linux_prj/Makefile&quot;  VERBOSE=1 ecserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/ecserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/ecserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/ecserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="offcialserver">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/offcialserver/linux_prj/offcialserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/offcialserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/offcialserver/linux_prj/Makefile&quot;  VERBOSE=1 offcialserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/offcialserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/offcialserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/offcialserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="offcialserver/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/offcialserver/linux_prj/offcialserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/offcialserver/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/offcialserver/linux_prj/Makefile&quot;  VERBOSE=1 offcialserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/offcialserver/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/offcialserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/offcialserver/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scroute">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/scroute/linux_prj/scroute" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/scroute/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/linux_prj/../Src"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/linux_prj/../../../public/server_common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/scroute/linux_prj/Makefile&quot;  VERBOSE=1 scroute"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/scroute/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/scroute/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/scroute/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scroute/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/scroute/linux_prj/scroute" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/scroute/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/linux_prj/../Src"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/linux_prj/../../../public/server_common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/scroute/linux_prj/Makefile&quot;  VERBOSE=1 scroute/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/scroute/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/scroute/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/scroute/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gcroute">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/gcroute/linux_prj/gcroute" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/gcroute/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/linux_prj/../Src"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/linux_prj/../../../public/server_common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/gcroute/linux_prj/Makefile&quot;  VERBOSE=1 gcroute"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/gcroute/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/gcroute/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/gcroute/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gcroute/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/gcroute/linux_prj/gcroute" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/gcroute/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/linux_prj/../Src"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/linux_prj/../../../public/server_common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/gcroute/linux_prj/Makefile&quot;  VERBOSE=1 gcroute/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/gcroute/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/gcroute/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/gcroute/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcroute">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/pcroute/linux_prj/pcroute" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/pcroute/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/linux_prj/../Src"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/linux_prj/../../../public/server_common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/pcroute/linux_prj/Makefile&quot;  VERBOSE=1 pcroute"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/pcroute/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/pcroute/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/pcroute/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcroute/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/pcroute/linux_prj/pcroute" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/pcroute/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/linux_prj/../Src"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/linux_prj/../../../public/server_common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/pcroute/linux_prj/Makefile&quot;  VERBOSE=1 pcroute/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/pcroute/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/pcroute/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_route/pcroute/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbtest">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/dbtest/linux_prj/dbtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/dbtest/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/dbtest/linux_prj/Makefile&quot;  VERBOSE=1 dbtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/dbtest/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/dbtest/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/dbtest/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbtest/fast">
+				<Option output="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/dbtest/linux_prj/dbtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/dbtest/linux_prj"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/linux_prj/../../../Include"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/linux_prj/../../../public/server_common"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/linux_prj/../../../Include/Package/common/hfbs"/>
+					<Add directory="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/linux_prj/../Src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/dbtest/linux_prj/Makefile&quot;  VERBOSE=1 dbtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/dbtest/linux_prj/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/dbtest/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shiyunjie/Documents/work/phoenix/server/phoenix/cmake-build-debug/server_logic/dbtest/linux_prj/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/BaseConfig.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/BaseThread.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/DebugTrace.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/DebugTraceThread.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/Event.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/FileSerialize.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/IniEx.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/MemorySerialize.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/PacketQueue.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/System.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/U9Exception.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/U9File.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/U9Process.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/basefun.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/crc32.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/md5.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/stdafx.cpp">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/src/stdafx.h">
+			<Option target="CommonLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/EncryptLib/src/ASCIIEnrypt.cpp">
+			<Option target="EncryptLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/EncryptLib/src/BlowFishEncrypt.cpp">
+			<Option target="EncryptLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/EncryptLib/src/Encrypt.cpp">
+			<Option target="EncryptLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/EncryptLib/src/TeaEncrypt.cpp">
+			<Option target="EncryptLib"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/memcache/src/BaseMemCache.cpp">
+			<Option target="memcache"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/mysqlpool/src/DBI.cpp">
+			<Option target="mysqlpool"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/mysqlpool/src/MySQLDriver.cpp">
+			<Option target="mysqlpool"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/mysqlpool/src/MySQLDriverPool.cpp">
+			<Option target="mysqlpool"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/mysqlpool/src/MySQLRes.cpp">
+			<Option target="mysqlpool"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/prj/DLLExport.cpp">
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/prj/stdafx.cpp">
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/prj/stdafx.h">
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/src/HTTPMgr.cpp">
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/src/HTTPMgr.h">
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/src/TCPMgr.cpp">
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/src/TCPMgr.h">
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/prj/DLLExport.cpp">
+			<Option target="NetT"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/src/TCPMgr.cpp">
+			<Option target="NetT"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/src/TCPMgr.h">
+			<Option target="NetT"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/prj/DLLExport.cpp">
+			<Option target="NetTB"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/src/EpollBMgr.cpp">
+			<Option target="NetTB"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/src/EpollBMgr.h">
+			<Option target="NetTB"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/src/TCPMgr.cpp">
+			<Option target="NetTB"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/src/TCPMgr.h">
+			<Option target="NetTB"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/prj/DLLExport.cpp">
+			<Option target="NetTPool"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/src/TCPConnPoolMgr.cpp">
+			<Option target="NetTPool"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/src/TCPConnPoolMgr.h">
+			<Option target="NetTPool"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/src/TCPConnectPool.cpp">
+			<Option target="NetTPool"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/src/TCPConnectPool.h">
+			<Option target="NetTPool"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/prj/DLLExport.cpp">
+			<Option target="NetWS"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/prj/stdafx.cpp">
+			<Option target="NetWS"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/prj/stdafx.h">
+			<Option target="NetWS"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/src/TCPMgr.cpp">
+			<Option target="NetWS"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/src/TCPMgr.h">
+			<Option target="NetWS"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/src/WSMgr.cpp">
+			<Option target="NetWS"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/src/WSMgr.h">
+			<Option target="NetWS"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/BaseTCPMgr.cpp">
+			<Option target="NetT"/>
+			<Option target="NetTB"/>
+			<Option target="NetWS"/>
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/BaseTCPMgr.h">
+			<Option target="NetT"/>
+			<Option target="NetTB"/>
+			<Option target="NetWS"/>
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/ClientPack.cpp">
+			<Option target="NetT"/>
+			<Option target="NetTB"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/EpollMgr.cpp">
+			<Option target="NetT"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/EpollMgr.h">
+			<Option target="NetT"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/HttpSocketMgr.cpp">
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/HttpSocketMgr.h">
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/SelectMgr.cpp">
+			<Option target="NetT"/>
+			<Option target="NetTB"/>
+			<Option target="NetWS"/>
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/SelectMgr.h">
+			<Option target="NetT"/>
+			<Option target="NetTB"/>
+			<Option target="NetWS"/>
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/ServerPack.cpp">
+			<Option target="NetTPool"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/TCPPacket.cpp">
+			<Option target="NetT"/>
+			<Option target="NetTB"/>
+			<Option target="NetWS"/>
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/TCPPacket.h">
+			<Option target="NetT"/>
+			<Option target="NetTB"/>
+			<Option target="NetWS"/>
+			<Option target="NetHTTP"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/WebSocketMgr.cpp">
+			<Option target="NetWS"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/common_tcp/WebSocketMgr.h">
+			<Option target="NetWS"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/kafka/src/KafkaMgr.cpp">
+			<Option target="kafka"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/kafka/src/KafkaProducer.cpp">
+			<Option target="kafka"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/src/LuaShaManager.cpp">
+			<Option target="redisclient"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/src/RedisClient.cpp">
+			<Option target="redisclient"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/src/RedisUtil.cpp">
+			<Option target="redisclient"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/src/RedisUtil_Friend.cpp">
+			<Option target="redisclient"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/src/RedisUtil_Login.cpp">
+			<Option target="redisclient"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/src/RedisUtil_Message.cpp">
+			<Option target="redisclient"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/src/RedisUtil_OffcialMessage.cpp">
+			<Option target="redisclient"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/src/RedisUtil_Reg.cpp">
+			<Option target="redisclient"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/src/RedisUtil_Trade.cpp">
+			<Option target="redisclient"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/src/RedisUtil_UserInfo.cpp">
+			<Option target="redisclient"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ClientConn/RegUserMgr.cpp">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ClientConn/RegUserMgr.h">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ClientConn/User.cpp">
+			<Option target="tcpcomet"/>
+			<Option target="wscomet"/>
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ClientConn/User.h">
+			<Option target="tcpcomet"/>
+			<Option target="wscomet"/>
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ClientConn/UserMgr.cpp">
+			<Option target="tcpcomet"/>
+			<Option target="wscomet"/>
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ClientConn/UserMgr.h">
+			<Option target="tcpcomet"/>
+			<Option target="wscomet"/>
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/SensitiveMgr.cpp">
+			<Option target="scserver"/>
+			<Option target="gcserver"/>
+			<Option target="groupserver"/>
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/SensitiveMgr.h">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ServerConn/User.cpp">
+			<Option target="regserver"/>
+			<Option target="userserver"/>
+			<Option target="scserver"/>
+			<Option target="gcserver"/>
+			<Option target="groupserver"/>
+			<Option target="fdserver"/>
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ServerConn/User.h">
+			<Option target="regserver"/>
+			<Option target="userserver"/>
+			<Option target="scserver"/>
+			<Option target="gcserver"/>
+			<Option target="groupserver"/>
+			<Option target="fdserver"/>
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ServerConn/UserConMgr.cpp">
+			<Option target="regserver"/>
+			<Option target="userserver"/>
+			<Option target="scserver"/>
+			<Option target="gcserver"/>
+			<Option target="groupserver"/>
+			<Option target="fdserver"/>
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ServerConn/UserConMgr.h">
+			<Option target="regserver"/>
+			<Option target="userserver"/>
+			<Option target="scserver"/>
+			<Option target="gcserver"/>
+			<Option target="groupserver"/>
+			<Option target="fdserver"/>
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ServerToKafka.cpp">
+			<Option target="userserver"/>
+			<Option target="scserver"/>
+			<Option target="gcserver"/>
+			<Option target="groupserver"/>
+			<Option target="fdserver"/>
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ServerToKafka.h">
+			<Option target="userserver"/>
+			<Option target="scserver"/>
+			<Option target="gcserver"/>
+			<Option target="groupserver"/>
+			<Option target="fdserver"/>
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ServerUtilMgr.cpp">
+			<Option target="scserver"/>
+			<Option target="ecserver"/>
+			<Option target="scroute"/>
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ServerUtilMgr.h">
+			<Option target="scserver"/>
+			<Option target="ecserver"/>
+			<Option target="scroute"/>
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/TaskThreadPoll.cpp">
+			<Option target="regserver"/>
+			<Option target="fdserver"/>
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/TaskThreadPoll.h">
+			<Option target="regserver"/>
+			<Option target="fdserver"/>
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ThreadNotify.cpp">
+			<Option target="regserver"/>
+			<Option target="fdserver"/>
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/ThreadNotify.h">
+			<Option target="regserver"/>
+			<Option target="fdserver"/>
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/encrypt/aes.cpp">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/encrypt/aes.h">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/httpclient.cpp">
+			<Option target="regserver"/>
+			<Option target="fdserver"/>
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/server_common/httpclient.h">
+			<Option target="regserver"/>
+			<Option target="fdserver"/>
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ClientSide/ClientSide.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ClientSide/ClientSide.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/Config.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/Config.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/GlobalResource.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/GlobalResource.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/Server.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ServerMgr.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ServerMgr.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ServerMgrTimeTask.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ServerSide/ServerSide.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/ServerSide/ServerSide.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/stdafx.cpp">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/Src/stdafx.h">
+			<Option target="httpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/ClientSide/ClientSide.cpp">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/ClientSide/ClientSide.h">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/Config.cpp">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/Config.h">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/GlobalResource.cpp">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/GlobalResource.h">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/Server.cpp">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/ServerMgr.cpp">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/ServerMgr.h">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/ServerMgrTimeTask.cpp">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/ServerSide/ServerSide.cpp">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/ServerSide/ServerSide.h">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/stdafx.cpp">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/Src/stdafx.h">
+			<Option target="tcpcomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/ClientSide/ClientSide.cpp">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/ClientSide/ClientSide.h">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/Config.cpp">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/Config.h">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/GlobalResource.cpp">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/GlobalResource.h">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/Server.cpp">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/ServerMgr.cpp">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/ServerMgr.h">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/ServerMgrTimeTask.cpp">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/ServerSide/ServerSide.cpp">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/ServerSide/ServerSide.h">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/stdafx.cpp">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/Src/stdafx.h">
+			<Option target="wscomet"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/ClientSide/ClientSide.cpp">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/ClientSide/ClientSide.h">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/Config.cpp">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/Config.h">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/DB/DatabaseMgr.cpp">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/DB/DatabaseMgr.h">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/DB/GDBCSStruct.cpp">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/DB/GDBCSStruct.h">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/GlobalResource.cpp">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/GlobalResource.h">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/MySQLDriver/MySQLDriver.cpp">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/MySQLDriver/MySQLDriver.h">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/MySQLDriver/MySQLDriverList.cpp">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/MySQLDriver/MySQLDriverList.h">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/Server.cpp">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/ServerMgr.cpp">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/ServerMgr.h">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/ServerMgrTimeTask.cpp">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/stdafx.cpp">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/Src/stdafx.h">
+			<Option target="dbtest"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/ClientSide/ClientSide.cpp">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/ClientSide/ClientSide.h">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/Config.cpp">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/Config.h">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/EcLastMsgTask.cpp">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/EcLastMsgTask.h">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/EcRecentMsgTask.cpp">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/EcRecentMsgTask.h">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/EcRecentOrdersTask.cpp">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/EcRecentOrdersTask.h">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/GlobalResource.cpp">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/GlobalResource.h">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/Server.cpp">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/ServerMgr.cpp">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/ServerMgr.h">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/ServerMgrTimeTask.cpp">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/stdafx.cpp">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/Src/stdafx.h">
+			<Option target="ecserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/ClientSide/ClientSide.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/ClientSide/ClientSide.h">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/Config.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/Config.h">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendBlackListTask.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendBlackListTask.h">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendClientAddTask.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendClientAddTask.h">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendConfirmTask.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendConfirmTask.h">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendDelTask.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendDelTask.h">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendListTask.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendListTask.h">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendRemarkTask.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendRemarkTask.h">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendUpdateTask.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/FriendUpdateTask.h">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/GlobalResource.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/GlobalResource.h">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/Server.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/ServerMgr.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/ServerMgr.h">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/ServerMgrTimeTask.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/stdafx.cpp">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/Src/stdafx.h">
+			<Option target="fdserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/Src/ClientSide/ClientSide.cpp">
+			<Option target="gcserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/Src/ClientSide/ClientSide.h">
+			<Option target="gcserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/Src/Config.cpp">
+			<Option target="gcserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/Src/Config.h">
+			<Option target="gcserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/Src/GlobalResource.cpp">
+			<Option target="gcserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/Src/GlobalResource.h">
+			<Option target="gcserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/Src/Server.cpp">
+			<Option target="gcserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/Src/ServerMgr.cpp">
+			<Option target="gcserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/Src/ServerMgr.h">
+			<Option target="gcserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/Src/ServerMgrTimeTask.cpp">
+			<Option target="gcserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/Src/stdafx.cpp">
+			<Option target="gcserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/Src/stdafx.h">
+			<Option target="gcserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/ClientSide/ClientSide.cpp">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/ClientSide/ClientSide.h">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/Config.cpp">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/Config.h">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/DbTask/DbTaskMgr.cpp">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/DbTask/DbTaskMgr.h">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/GlobalResource.cpp">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/GlobalResource.h">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/GroupToKafka/GroupDistributeMgr.cpp">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/GroupToKafka/GroupDistributeMgr.h">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/Server.cpp">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/ServerMgr.cpp">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/ServerMgr.h">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/ServerMgrTimeTask.cpp">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/stdafx.cpp">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/Src/stdafx.h">
+			<Option target="groupserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/ClientSide/ClientSide.cpp">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/ClientSide/ClientSide.h">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/Config.cpp">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/Config.h">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/GlobalResource.cpp">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/GlobalResource.h">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/OffciaToKafka/COffciaDistributeMgr.cpp">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/OffciaToKafka/COffciaDistributeMgr.h">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/Server.cpp">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/ServerMgr.cpp">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/ServerMgr.h">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/ServerMgrTimeTask.cpp">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/stdafx.cpp">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/Src/stdafx.h">
+			<Option target="offcialserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/ClientSide/ClientSide.cpp">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/ClientSide/ClientSide.h">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/Config.cpp">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/Config.h">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/GlobalResource.cpp">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/GlobalResource.h">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/Server.cpp">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/ServerMgr.cpp">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/ServerMgr.h">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/ServerMgrTimeTask.cpp">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/ServerSide/ServerSide.cpp">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/ServerSide/ServerSide.h">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/SmsVerifyTask.cpp">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/SmsVerifyTask.h">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/stdafx.cpp">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/Src/stdafx.h">
+			<Option target="regserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/Src/ClientSide/ClientSide.cpp">
+			<Option target="scserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/Src/ClientSide/ClientSide.h">
+			<Option target="scserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/Src/Config.cpp">
+			<Option target="scserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/Src/Config.h">
+			<Option target="scserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/Src/GlobalResource.cpp">
+			<Option target="scserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/Src/GlobalResource.h">
+			<Option target="scserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/Src/Server.cpp">
+			<Option target="scserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/Src/ServerMgr.cpp">
+			<Option target="scserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/Src/ServerMgr.h">
+			<Option target="scserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/Src/ServerMgrTimeTask.cpp">
+			<Option target="scserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/Src/stdafx.cpp">
+			<Option target="scserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/Src/stdafx.h">
+			<Option target="scserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/ClientSide/ClientSide.cpp">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/ClientSide/ClientSide.h">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/Config.cpp">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/Config.h">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/GlobalResource.cpp">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/GlobalResource.h">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/Server.cpp">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/ServerMgr.cpp">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/ServerMgr.h">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/ServerMgrTimeTask.cpp">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/ServerSide/ServerSide.cpp">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/ServerSide/ServerSide.h">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/stdafx.cpp">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/Src/stdafx.h">
+			<Option target="userserver"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/CKafkaConsumeThread.cpp">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/CKafkaConsumeThread.h">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/ClientSide/ClientSide.cpp">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/ClientSide/ClientSide.h">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/Config.cpp">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/Config.h">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/ConsumeDealMsgThread.cpp">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/ConsumeDealMsgThread.h">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/ConsumeThreadNotify.cpp">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/ConsumeThreadNotify.h">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/GlobalResource.cpp">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/GlobalResource.h">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/Server.cpp">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/ServerMgr.cpp">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/ServerMgr.h">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/ServerMgrTimeTask.cpp">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/stdafx.cpp">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/Src/stdafx.h">
+			<Option target="gcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/CKafkaConsumeThread.cpp">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/CKafkaConsumeThread.h">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/ClientSide/ClientSide.cpp">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/ClientSide/ClientSide.h">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/Config.cpp">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/Config.h">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/ConsumeDealMsgThread.cpp">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/ConsumeDealMsgThread.h">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/ConsumeThreadNotify.cpp">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/ConsumeThreadNotify.h">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/GlobalResource.cpp">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/GlobalResource.h">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/Server.cpp">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/ServerMgr.cpp">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/ServerMgr.h">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/ServerMgrTimeTask.cpp">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/stdafx.cpp">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/Src/stdafx.h">
+			<Option target="pcroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/CKafkaConsumeThread.cpp">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/CKafkaConsumeThread.h">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/ClientSide/ClientSide.cpp">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/ClientSide/ClientSide.h">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/Config.cpp">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/Config.h">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/ConsumeDealMsgThread.cpp">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/ConsumeDealMsgThread.h">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/ConsumeThreadNotify.cpp">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/ConsumeThreadNotify.h">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/GlobalResource.cpp">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/GlobalResource.h">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/Server.cpp">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/ServerMgr.cpp">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/ServerMgr.h">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/ServerMgrTimeTask.cpp">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/stdafx.cpp">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/Src/stdafx.h">
+			<Option target="scroute"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\CommonLib\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/CommonLib/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\CommonLib\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/EncryptLib/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\EncryptLib\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/EncryptLib/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\EncryptLib\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/memcache/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\memcache\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/memcache/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\memcache\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/mysqlpool/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\mysqlpool\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/common/mysqlpool/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\mysqlpool\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetHttp\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetHttp/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetHttp\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetT\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetT/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetT\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetTB\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTB/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetTB\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetTPool\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetTPool/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetTPool\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetWS\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/network/NetWS/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\network\NetWS\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\dbtest\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/dbtest/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\dbtest\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\ecserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/ecserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\ecserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\fdserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/fdserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\fdserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\gcserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/gcserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\gcserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\offcialserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/offcialserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\offcialserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\groupserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/groupserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\groupserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\regserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/regserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\regserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\userserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/userserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\userserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\scserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_logic/scserver/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_logic\scserver\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_route\gcroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/gcroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_route\gcroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_route\pcroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/pcroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_route\pcroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_route\scroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_route/scroute/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_route\scroute\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_comet\httpcomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/httpcomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_comet\httpcomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_comet\tcpcomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/tcpcomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_comet\tcpcomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_comet\wscomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/server_comet/wscomet/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server_comet\wscomet\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/kafka/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public\kafka\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/kafka/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public\kafka\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public\redisclient\linux_prj\"/>
+		</Unit>
+		<Unit filename="/Users/shiyunjie/Documents/work/phoenix/server/phoenix/public/redisclient/linux_prj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\public\redisclient\linux_prj\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

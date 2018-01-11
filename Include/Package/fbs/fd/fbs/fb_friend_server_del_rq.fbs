@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+namespace friendpack;
+
+table T_FRIEND_SERVER_DEL_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	peer_user_id:ulong;             //好友ID
+	peer_nickname:string;           //好友昵称
+	token:ulong;                    //好友操作token
+}
+
+root_type T_FRIEND_SERVER_DEL_RQ;

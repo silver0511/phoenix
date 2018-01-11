@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+
+namespace scpack;
+
+table T_GET_MSG_UNREAD_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	unread_count:int;
+}
+
+root_type T_GET_MSG_UNREAD_RS;

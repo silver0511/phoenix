@@ -1,0 +1,13 @@
+include "../../common/fbs/common.fbs";
+
+namespace userpack;
+
+//用户举报信息包
+table T_CHANGE_MAIL_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	old_mail:string;					//旧号码
+	new_mail:string;					//新号码
+}
+
+root_type T_CHANGE_MAIL_RQ;

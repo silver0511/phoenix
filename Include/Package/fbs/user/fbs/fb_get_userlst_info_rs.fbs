@@ -1,0 +1,21 @@
+include "../../common/fbs/common.fbs";
+
+namespace userpack;
+
+table T_GET_USERINFO
+{
+	user_id:ulong;
+	user_name:string;				//用户名称
+	nick_name:string;				//昵称
+	mobile:ulong;					//手机号码
+}
+
+// 获取用户列表信息包 服务器回包
+table T_GET_USERLST_INFO_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	user_lst_info:[T_GET_USERINFO];		//用户详情列表
+	user_no_lst:[ulong];				//不存在的用户列表
+}
+
+root_type T_GET_USERLST_INFO_RS;

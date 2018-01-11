@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qbao.im.api.dao.IFriendDao" >
+	<resultMap type="com.qbao.im.api.entity.Friend" id="friendMap">
+		<id property="id" column="id"/>
+		<result property="userId" column="user_id"/>
+		<result property="friendId" column="friend_id"/>
+		<result property="sourceType" column="source_type"/>
+		<result property="remarkName" column="remark_name"/>
+		<result property="createDate" column="create_date"/>
+		<result property="status" column="status"/>
+		<result property="isBlackList" column="is_black_list"/>
+		<result property="friendMsg" column="friend_msg"/>
+	</resultMap>
+	<insert id="save" parameterType="Friend" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO ${tabName}
+		<trim prefix="(" suffixOverrides="," suffix=")">
+			<if test="userId != null ">
+				user_id,
+			</if>
+			<if test="friendId != null">
+				friend_id,
+			</if>
+			<if test="sourceType != null">
+				source_type,
+			</if>
+			<if test="remarkName != null and remarkName != ''">
+				remark_name,
+			</if>
+			<if test="createDate != null">
+				create_date,
+			</if>
+			<if test="status != null">
+				status,
+			</if>
+			<if test="isBlackList != null">
+				is_black_list,
+			</if>
+			<if test="friendMsg != null and friendMsg != ''">
+				friend_msg,
+			</if>
+		</trim>
+		<trim prefix="VALUES (" suffixOverrides="," suffix=")">
+			<if test="userId != null">
+				#{userId},
+			</if>
+			<if test="friendId != null">
+				#{friendId},
+			</if>
+			<if test="sourceType != null">
+				#{sourceType},
+			</if>
+			<if test="remarkName != null and remarkName != ''">
+				#{remarkName},
+			</if>
+			<if test="createDate != null">
+				NOW(),
+			</if>
+			<if test="status != null">
+				#{status},
+			</if>
+			<if test="isBlackList != null">
+				#{isBlackList},
+			</if>
+			<if test="friendMsg != null and friendMsg != ''">
+				#{friendMsg},
+			</if>
+		</trim>
+	</insert>
+
+	<update id="modify" parameterType="Friend">
+		update ${tabName}
+		<trim prefix="set" suffixOverrides=",">	
+			<if test="sourceType != null">
+				source_type = #{sourceType},
+			</if>
+			<if test="remarkName != null">
+				remark_name = #{remarkName},
+			</if>
+			<if test="status != null">
+				status = #{status},
+			</if>
+			<if test="isBlackList != null">
+				is_black_list = #{isBlackList},
+			</if>
+			<if test="friendMsg != null">
+				friend_msg = #{friendMsg},
+			</if>
+		</trim>
+		<where>
+			user_id = #{userId}
+			AND friend_id = #{friendId}
+		</where>
+	</update>
+
+	<delete id="del" parameterType="Friend">
+		DELETE FROM ${tabName}
+		<where>
+			1 = 1
+			AND user_id = #{userId}
+			AND friend_id = #{friendId}
+		</where>
+	</delete>
+
+	<sql id="queryAllFriends">
+		SELECT id,user_id,friend_id,source_type,remark_name,`status`,is_black_list,friend_msg from ${tabName}
+	</sql>
+	<select id="getFriends" parameterType="Friend" resultMap="friendMap" >
+		<include refid="queryAllFriends"/>
+		<where>
+			1 = 1
+			<if test="userId != null">
+				AND user_id = #{userId}
+			</if>
+			<if test="friendId != null">
+				AND friend_id = #{friendId}
+			</if>
+			<if test="status != null">
+				AND status != #{status}
+			</if>
+		</where>
+		<if test="pageIndex != null">
+			LIMIT #{pageIndex},#{pageSize}
+		</if>
+	</select>
+
+	<update id="modifyBlack">
+		UPDATE ${friend.tabName}
+		<trim prefix="set" suffixOverrides=",">
+			<if test="blackType == 0">
+				<![CDATA[ is_black_list = is_black_list & 1, ]]>
+			</if>
+			<if test="blackType == 1">
+				<![CDATA[ is_black_list = is_black_list & 2, ]]>
+			</if>
+			<if test="blackType == 2">
+				<![CDATA[ is_black_list = is_black_list | 2, ]]>
+			</if>
+			<if test="blackType == 3">
+				<![CDATA[ is_black_list = is_black_list | 1, ]]>
+			</if>
+		</trim>
+		<where>
+			user_id = #{friend.userId}
+			AND friend_id = #{friend.friendId}
+		</where>
+	</update>
+
+	<select id="getFriendCount" parameterType="Long" resultType="int">
+		select count(1) from ${tabName} where status in (0,7,11) and user_id = #{userId}
+	</select>
+</mapper>

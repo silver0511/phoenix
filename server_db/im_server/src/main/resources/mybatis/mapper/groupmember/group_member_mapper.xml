@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.qbao.im.api.dao.IGroupMemberDao" >
+	<insert id="batchSave" parameterType="Map" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO ${tabName} (group_id,user_id,member_type,member_nickname,member_joindate,update_date,rcv_msg_status,is_address_book) VALUES
+		<foreach collection="list" separator="," item="item" index="index">
+			(#{item.group_id},#{item.user_id},#{item.member_type},#{item.member_nickname},#{item.member_joindate},#{item.update_date},0,0)
+		</foreach>
+	</insert>
+
+	<select id="callSave" parameterMap="getMemberMap" statementType="CALLABLE" resultType="java.util.Map">
+		CALL nim_db1.proc_batch_add_group_member(?,?,?)
+	</select>
+
+	<parameterMap id="getMemberMap" type="java.util.Map">
+		<parameter property="group_list" mode="IN" jdbcType="VARCHAR"/>
+		<parameter property="group_id" mode="IN" jdbcType="BIGINT"/>
+		<parameter property="result" mode="OUT" jdbcType="INTEGER"/>
+	</parameterMap>
+
+	<insert id="save" parameterType="GroupMember" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO ${tabName}
+		<trim prefix="(" suffixOverrides="," suffix=")">
+			<if test="group_id != null ">
+				group_id,
+			</if>
+			<if test="user_id != null">
+				user_id,
+			</if>
+			<if test="member_type != null">
+				member_type,
+			</if>
+			<if test="member_nickname != null and member_nickname != ''">
+				member_nickname,
+			</if>
+			<if test="member_joindate != null">
+				member_joindate,
+			</if>
+			<if test="update_date != null">
+				update_date,
+			</if>
+			<if test="rcv_msg_status != null">
+				rcv_msg_status,
+			</if>
+			<if test="is_address_book != null">
+				is_address_book,
+			</if>
+		</trim>
+		<trim prefix="VALUES (" suffixOverrides="," suffix=")">
+			<if test="group_id != null ">
+				#{group_id},
+			</if>
+			<if test="user_id != null">
+				#{user_id},
+			</if>
+			<if test="member_type != null">
+				#{member_type},
+			</if>
+			<if test="member_nickname != null and member_nickname != ''">
+				#{member_nickname},
+			</if>
+			<if test="member_joindate != null">
+				#{member_joindate},
+			</if>
+			<if test="update_date != null">
+				#{update_date},
+			</if>
+			<if test="rcv_msg_status != null">
+				#{rcv_msg_status},
+			</if>
+			<if test="is_address_book != null">
+				#{is_address_book},
+			</if>
+		</trim>
+	</insert>
+
+	<select id="isExsist" parameterType="Long" resultType="Boolean">
+		SELECT COUNT(1) FROM ${tabName}
+		<where>
+			1 = 1
+			AND group_id = #{group_id} AND user_id = #{user_id}
+		</where>
+	</select>
+
+	<select id="getMemberList" parameterType="GroupMember" resultType="GroupMember">
+		SELECT id orderid,group_id,user_id,member_type,member_nickname,member_joindate,rcv_msg_status from ${tabName}
+		<where>
+			1 = 1
+			AND group_id = #{group_id}
+			<if test="pageIndex != null">
+				LIMIT #{pageIndex},#{pageSize}
+			</if>
+		</where>
+	</select>
+
+	<select id="getMemberListCount" parameterType="GroupMember" resultType="int">
+		SELECT COUNT(1) from ${tabName}
+		<where>
+			1 = 1
+			AND group_id = #{group_id}
+		</where>
+	</select>
+	
+	<update id="update" parameterType="GroupMember">
+		UPDATE ${tabName}
+		<trim prefix="set" suffixOverrides=",">
+			<if test="member_type != null">
+				member_type = #{member_type},
+			</if>
+			<if test="member_nickname != null and member_nickname != ''">
+				member_nickname = #{member_nickname},
+			</if>
+			<if test="update_date != null">
+				update_date = #{update_date},
+			</if>
+			<if test="rcv_msg_status != null">
+				rcv_msg_status = #{rcv_msg_status},
+			</if>
+			<if test="is_address_book != null">
+				is_address_book = #{is_address_book},
+			</if>
+		</trim>
+		<where>
+			1 = 1
+			AND group_id = #{group_id}
+			AND user_id = #{user_id}
+		</where>
+	</update>
+
+	<update id="updateMemberType" parameterType="GroupMember">
+		UPDATE ${tabName} set membertype = 0
+		<where>
+			group_id = #{group_id}
+		</where>
+	</update>
+
+	<delete id="del" parameterType="GroupMember">
+		delete from ${tabName}
+		<where>
+			group_id = #{group_id}
+			AND user_id = #{user_id}
+		</where>
+	</delete>
+
+	<delete id="batchDel" parameterType="Map">
+		delete from ${tabName}
+		<where>
+			group_id = #{group_id}
+			AND user_id in
+			<foreach item="list" collection="list" open="(" separator="," close=")">
+				#{list}
+			</foreach>
+		</where>
+	</delete>
+
+	<select id="getGroupMemberByUserId" parameterType="GroupMember" resultType="GroupMember">
+		SELECT id,user_id,member_nickname FROM ${tabName} WHERE group_id = #{group_id} AND user_id = #{user_id} limit 0,1
+	</select>
+
+	<select id="getGroupMemberCount" parameterType="GroupMember" resultType="int">
+		SELECT COUNT(1) FROM ${tabName} WHERE group_id = #{group_id} AND user_id = #{user_id}
+	</select>
+
+	<select id="getGroupMemberOrderById" parameterType="GroupMember" resultType="GroupMember">
+		SELECT id,group_id,user_id,member_nickname,member_type,rcv_msg_status FROM ${tabName}
+		<where>
+			1 = 1
+			AND group_id = #{group_id}
+		</where>
+		ORDER BY id
+		limit 0,1
+	</select>
+</mapper>

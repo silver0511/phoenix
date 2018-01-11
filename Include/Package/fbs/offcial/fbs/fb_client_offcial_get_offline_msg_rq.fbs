@@ -1,0 +1,13 @@
+﻿include "../../common/fbs/common.fbs";
+
+namespace offcialpack;
+
+// 公众号获取离线信息包
+table T_CLIENT_OFFCIAL_GET_OFFLINE_MESSAGE_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	message_id:ulong;									// 消息编号
+	offcial_id:ulong;									// 公众号id
+}
+
+root_type T_CLIENT_OFFCIAL_GET_OFFLINE_MESSAGE_RQ;

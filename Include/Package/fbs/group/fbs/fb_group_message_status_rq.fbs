@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+namespace grouppack;
+
+table T_GROUP_MESSAGE_STATUS_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+    group_id:ulong;
+    message_status:byte;
+}
+
+root_type T_GROUP_MESSAGE_STATUS_RQ;

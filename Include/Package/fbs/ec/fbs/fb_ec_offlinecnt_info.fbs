@@ -1,0 +1,9 @@
+include "../../common/fbs/common.fbs";
+namespace ecpack;
+
+table T_ECOFFLINECNT_INFO
+{
+	b_id:ulong;						// 商家ID
+	cnt:uint;						// 离线消息数目
+}
+root_type T_ECOFFLINECNT_INFO;

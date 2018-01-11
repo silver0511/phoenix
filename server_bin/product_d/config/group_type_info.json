@@ -1,0 +1,10 @@
+{
+    "data" : [
+        {
+            "group_type" : 1,
+            "group_max_count" : 200,
+            "group_is_show" : 1,
+            "group_add_max_count" : 50
+        }
+    ]
+}

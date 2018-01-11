@@ -1,0 +1,16 @@
+﻿include "../../common/fbs/common.fbs";
+include "./fb_offcial_offline_msg.fbs";
+include "./fb_offcial_msg.fbs";
+
+namespace offcialpack;
+
+// 粉丝端获取离线信息回包
+table T_CLIENT_FANS_GET_OFFLINE_MESSAGE_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	is_finish:byte;									//是否最新
+	list_offcial_offline_msg_response:[T_OFFCIAL_OFFLINE_MESSAGE]; //离线消息列表
+	list_private_msg_response:[T_OFFCIAL_MESSAGE]; //私聊离线消息列表
+}
+
+root_type T_CLIENT_FANS_GET_OFFLINE_MESSAGE_RS;

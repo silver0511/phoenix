@@ -1,0 +1,13 @@
+include "../../common/fbs/common.fbs";
+include "./fb_friend_info.fbs";
+namespace friendpack;
+
+table T_FRIEND_LIST_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	friend_list:[friendpack.T_FREIND_INFO];             //好友列表
+	token:ulong;                                        //好友列表token
+	msg_source:int;                                      //消息来源0：mysql 1:redis
+}
+
+root_type T_FRIEND_LIST_RS;

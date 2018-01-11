@@ -1,0 +1,52 @@
+//
+// UDPTransMgr.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+#include "VersionNo.h"
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION VERSION_FILE
+ PRODUCTVERSION VERSION_PRODUCT
+ FILEFLAGSMASK 0x37L
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+       BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "Dynamic Library\0"
+            VALUE "CompanyName", "360Youjiu(Beijing) Technology Co.Ltd.\0"
+			VALUE "FileDescription", "NetT Dynamic Library"
+            VALUE "FileVersion", VERSION_FILESTR
+            VALUE "InternalName", "NetT"
+            VALUE "LegalCopyright", "Copyright (C) 2011-360Youjiu(Beijing) Technology Co.Ltd, All rights reserved."
+            VALUE "LegalTrademarks", "360Youjiu"
+            VALUE "OriginalFilename", "NetT.dll"
+            VALUE "ProductName", "NetT Dynamic Library"
+            VALUE "ProductVersion", VERSION_PRODUCTSTR
+            VALUE "SpecialBuild", VERSION_DATE " " VERSION_TIME
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END

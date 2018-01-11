@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+namespace grouppack;
+
+// 获取群组公告详情
+table T_GROUP_REMARK_DETAIL_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	group_id:ulong; 								// 群组id
+}
+
+root_type T_GROUP_REMARK_DETAIL_RQ;

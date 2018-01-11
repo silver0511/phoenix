@@ -1,0 +1,10 @@
+include "../../common/fbs/common.fbs";
+namespace ecpack;
+
+table T_EC_GETRECENTORDERS_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	sellerId:ulong;                      //商家ID
+	buyerId:ulong;                      //客户ID
+}
+root_type T_EC_GETRECENTORDERS_RQ;

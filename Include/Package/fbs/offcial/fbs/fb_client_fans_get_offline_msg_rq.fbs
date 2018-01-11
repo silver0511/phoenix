@@ -1,0 +1,18 @@
+include "../../common/fbs/common.fbs";
+
+namespace offcialpack;
+
+table T_OFFCIAL_BASE_REQUEST
+{
+	offcial_id:ulong;							// 公众号id
+	next_message_id:ulong;						// 开始同步离线message_id
+}
+
+// 粉丝端获取离线信息
+table T_CLIENT_FANS_GET_OFFLINE_MESSAGE_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	list_offcial_offline_msg_request:[T_OFFCIAL_BASE_REQUEST]; //公众号列表
+}
+
+root_type T_CLIENT_FANS_GET_OFFLINE_MESSAGE_RQ;

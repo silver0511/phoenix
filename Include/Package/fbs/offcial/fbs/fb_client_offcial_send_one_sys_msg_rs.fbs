@@ -1,0 +1,13 @@
+﻿include "../../common/fbs/common.fbs";
+
+namespace offcialpack;
+
+// 系统公众号向单个粉丝发送消息确认包
+table T_CLIENT_OFFCIAL_SEND_ONE_SYS_MSG_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	fans_id:ulong;								// 粉丝id
+	s_msg:commonpack.S_MSG;						// 聊天信息结构 里面存储聊天类型 内容等
+}
+
+root_type T_CLIENT_OFFCIAL_SEND_ONE_SYS_MSG_RS;

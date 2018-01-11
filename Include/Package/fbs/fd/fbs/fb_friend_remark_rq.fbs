@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+namespace friendpack;
+
+table T_FRIEND_REMARK_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	peer_user_id:ulong;               //好友ID
+	peer_remark_name:string;          //好友备注
+}
+
+root_type T_FRIEND_REMARK_RQ;

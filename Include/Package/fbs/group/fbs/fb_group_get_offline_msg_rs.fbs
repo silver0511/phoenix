@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+include "./fb_group_all_offline_msg.fbs";
+
+namespace grouppack;
+
+table T_GROUP_GET_OFFLINE_MESSAGE_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	list_group_offline_msg_response:[T_GROUP_ALL_OFFLINE_MSG];
+}
+
+root_type T_GROUP_GET_OFFLINE_MESSAGE_RS;

@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+namespace grouppack;
+
+// 设置群存储类型
+table T_GROUP_SCAN_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	group_id:ulong; 								// 群组id
+    user_id_share:ulong;                            // 分享二维码的用户id
+}
+
+root_type T_GROUP_SCAN_RQ;

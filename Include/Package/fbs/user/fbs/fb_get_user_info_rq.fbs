@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+
+namespace userpack;
+
+// 获取用户信息包
+table T_GET_USER_INFO_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	user_msg:string;				//用户信息关键字段
+}
+
+root_type T_GET_USER_INFO_RQ;

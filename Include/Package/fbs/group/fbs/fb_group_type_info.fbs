@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+namespace grouppack;
+
+table T_GROUP_TYPE_INFO
+{
+	group_max_count:int;                            // 最大人数
+    group_type:int;                                 // 类型
+    group_is_show:byte;                             // 0 不现实 1显示
+    group_add_max_count:int;                        // 最大邀请人数
+}
+
+root_type T_GROUP_TYPE_INFO;

@@ -1,0 +1,10 @@
+include "../../common/fbs/common.fbs";
+namespace ecpack;
+
+table T_PROMPTMSG_INFO
+{
+	b_id:ulong;                      //商家ID
+	prompts_type:int;                //商家类型  0:结束语 1:欢迎语
+    prompts_msg:string;              //消息内容
+}
+root_type T_PROMPTMSG_INFO;

@@ -1,0 +1,15 @@
+﻿include "../../common/fbs/common.fbs";
+include "./fb_offcial_msg.fbs";
+
+namespace offcialpack;
+
+// 粉丝端获取系统消息回包
+table T_CLIENT_FANS_GET_SYS_MSG_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	is_finish:byte;									//是否最新
+	list_sys_msg_response:[T_OFFCIAL_MESSAGE];		//系统消息列表
+	list_private_msg_response:[T_OFFCIAL_MESSAGE];	//私聊离线消息列表
+}
+
+root_type T_CLIENT_FANS_GET_SYS_MSG_RS;

@@ -1,0 +1,10 @@
+include "../../common/fbs/common.fbs";
+include "./fb_ec_promptmsginfo.fbs";
+namespace ecpack;
+
+table T_EC_SETPROMPTS_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+    promptsmsglist:[T_PROMPTMSG_INFO];       //商家提示语列表
+}
+root_type T_EC_SETPROMPTS_RQ;

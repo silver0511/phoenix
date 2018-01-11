@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+namespace friendpack;
+
+table T_FRIEND_LIST_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	offset:int;                               //获取好友列表偏移量
+	token:ulong;                              //好友列表token
+}
+
+root_type T_FRIEND_LIST_RQ;

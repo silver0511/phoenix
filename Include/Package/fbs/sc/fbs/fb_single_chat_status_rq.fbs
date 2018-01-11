@@ -1,0 +1,13 @@
+include "../../common/fbs/common.fbs";
+
+namespace scpack;
+
+// 设置消息是否免打扰
+table T_SINGLE_CHAT_STATUS_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	op_user_id:ulong;                       // 对端user_id
+	chat_status:byte;						// 是否免打扰 0为正常 1为免打扰
+}
+
+root_type T_SINGLE_CHAT_STATUS_RQ;

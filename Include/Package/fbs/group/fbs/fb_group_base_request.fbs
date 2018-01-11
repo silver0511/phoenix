@@ -1,0 +1,9 @@
+namespace grouppack;
+
+table T_GROUP_BASE_REQUEST
+{
+	group_id:ulong;								// 群组id
+	next_message_id:ulong;						// 开始同步离线message_id
+}
+
+root_type T_GROUP_BASE_REQUEST;

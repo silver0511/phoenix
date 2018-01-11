@@ -1,0 +1,18 @@
+include "../../common/fbs/common.fbs";
+include "./fb_group_offline_msg.fbs";
+
+namespace grouppack;
+
+table T_GROUP_CREATE_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	group_name:string;
+	group_img_url:string;
+	group_remark:string;
+	group_ct:long;
+	group_type:int;
+
+	offline_group_msg:T_OFFLINE_GROUP_MSG;
+}
+
+root_type T_GROUP_CREATE_RQ;

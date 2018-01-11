@@ -1,0 +1,22 @@
+include "../../common/fbs/common.fbs";
+namespace ecpack;
+
+table T_ECMSG_INFO
+{
+	app_id:short;					// 子公司id
+	session_id:int;					// 保留字段 会话id
+	chat_type:short;				// 聊天类型（单聊、群聊等）
+	m_type:int;						// 消息类型（文本、图片、地图等）
+	s_type:int;						// 消息类型扩展（红包、订单、名片等）
+	ext_type:int;					// 保留字段 以后扩展
+	from_id:ulong;					// 消息发送者
+	to_id:ulong;						// 消息接受者
+	b_id:ulong;						// 商家ID
+	c_id:ulong;						// 客户ID
+ 	w_id:ulong;						// 小二ID
+    message_id:ulong;					//消息唯一表示
+	msg_time:long;					// 消息发送的时间
+	msg_content:string;				// 消息内容
+	send_user_name:string;			//发送方昵称
+}
+root_type T_ECMSG_INFO;

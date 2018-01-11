@@ -1,0 +1,7 @@
+; NetTPool_L.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NetTPool_L"
+
+EXPORTS
+    ; Explicit exports can go here
+	CreateNetTPool;

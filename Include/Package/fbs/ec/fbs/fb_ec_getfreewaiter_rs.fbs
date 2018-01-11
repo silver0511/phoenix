@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+namespace ecpack;
+
+table T_EC_GETFREEWAITER_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	b_id:ulong;                              //商家ID
+	w_id:ulong;                              //小二ID
+	session_id:int;                          //会话ID
+	promtpsmsg:string;                       //提示语
+}
+root_type T_EC_GETFREEWAITER_RS;

@@ -1,0 +1,20 @@
+include "../../common/fbs/common.fbs";
+
+namespace syspack;
+
+// 用户登录RQ
+table T_LOGIN_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	ap_id:int;		                        //子公司ID
+	client_time:ulong;                      //客户端当前时间
+	cookie:[ubyte];                         //加密cookie
+	tgt:string;                             //登录验证
+	client_version:string;					//客户端版本号
+	platform:byte;		    				//平台
+	device_code:string;						//设备码
+	os_type:string;							//系统
+	net_type:byte;							//网络类型
+}
+
+root_type T_LOGIN_RQ;

@@ -1,0 +1,14 @@
+include "../../common/fbs/common.fbs";
+namespace ecpack;
+
+table T_EC_GETBUSINESS_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	sellerId:ulong;                      //商家ID
+	sellerType:int;                      //商家类型
+    sellerAvatar:string;                 //商家头像
+    sellerName:string;                   //商家名称
+    sellerUrl:string;                    //商家链接
+
+}
+root_type T_EC_GETBUSINESS_RS;

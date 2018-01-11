@@ -1,0 +1,11 @@
+include "../../common/fbs/common.fbs";
+namespace ecpack;
+
+table T_EC_ISUSERBUSY_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	b_id:ulong;                              //商家ID
+	c_id:ulong;                              //用户ID
+	status:int;                             //0:正常 1:在服务
+}
+root_type T_EC_ISUSERBUSY_RS;

@@ -1,0 +1,13 @@
+include "../../common/fbs/common.fbs";
+include "./fb_update_user_info_rq.fbs";
+
+namespace userpack;
+
+// 修改用户信息包 服务器回包
+table T_UPDATE_USER_INFO_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	key_lst_info:[T_KEYINFO];			//属性列表
+}
+
+root_type T_UPDATE_USER_INFO_RS;

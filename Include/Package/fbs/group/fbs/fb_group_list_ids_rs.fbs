@@ -1,0 +1,13 @@
+include "../../common/fbs/common.fbs";
+include "./fb_group_relation_user_info.fbs";
+
+namespace grouppack;
+
+table T_GROUP_LIST_IDS_RS
+{
+	s_rs_head:commonpack.S_RS_HEAD;
+	group_info_list:[T_GROUP_RELATION_USER_INFO];
+	group_list_index:int;
+}
+
+root_type T_GROUP_LIST_IDS_RS;

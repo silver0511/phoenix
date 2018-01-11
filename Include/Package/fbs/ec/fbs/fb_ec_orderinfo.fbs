@@ -1,0 +1,16 @@
+include "../../common/fbs/common.fbs";
+include "./fb_ec_goodsinfotoims.fbs";
+namespace ecpack;
+
+table T_ORDER_INFO
+{
+		buyerId:ulong;                      //买家ID
+		orderId:ulong;                      //订单编号
+		payTime:ulong;                      //支付时间
+		sellerId:ulong;                     //商家ID
+		totalAmount:ulong;                  //订单总额
+		orderstate:int;                     //订单状态
+		orderstatestr:string;                //订单状态描述
+		goodsInfoDto4IMs:[ecpack.T_GOODSINFTOIMS];
+}
+root_type T_ORDER_INFO;

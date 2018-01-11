@@ -1,0 +1,12 @@
+include "../../common/fbs/common.fbs";
+
+namespace offcialpack;
+
+// 粉丝端获取系统消息
+table T_CLIENT_FANS_GET_SYS_MSG_RQ
+{
+	s_rq_head:commonpack.S_RQ_HEAD;
+	message_id:ulong;									// 消息编号
+}
+
+root_type T_CLIENT_FANS_GET_SYS_MSG_RQ;
